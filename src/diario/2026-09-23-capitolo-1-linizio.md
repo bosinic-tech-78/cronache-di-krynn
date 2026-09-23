@@ -4,7 +4,7 @@ date: 2026-09-23T14:21:00.000+02:00
 image: ''
 ---
 
-**Prologo**
+### **Prologo**
 
 Il Cavaliere di Solamnia Becklin Uth Viharin invia agli avventurieri una lettera per informarli della morte di Ispin Verdescuro; li invita al funerale di Ispin a Vogler. 
 
@@ -16,7 +16,9 @@ Durante il viaggio verso Vogler, succedono diverse cose:
 - Gunnar e Olmus combattono contro i primi draconici;
 - Colchico, Nightwind e Pavel entrano in contatto con le loro divinità e ottengono la possibilità di utilizzare la magia divina.
 
-**MISHAM 11, FLEURGREEN**
+## 351 AC
+
+##### **MISHAM 11, FLEURGREEN**
 
 Gli avventurieri arrivano in mattinata a Vogler per il funerale di Ispin Verdescudo.
 
@@ -26,7 +28,7 @@ Esplorano la cittadina e in serata si riuniscono agli abitanti per l'ultimo salu
 
 ![](/static/img/3-01%20Sending%20Off%20a%20Friend.png)
 
-**BAKUKAL 12, FLEURGREEN**
+##### **BAKUKAL 12, FLEURGREEN**
 
 La mattina, gli avventurieri incontrano Darrett e si recano da Becklin alla Fortezza Rovocinta. Ricevono da Becklin il Verdescudo di Ispin.
 
@@ -42,7 +44,7 @@ Nella notte gli avventurieri, la sindaca Raven e Becklin interrogano uno degli a
 
 La sindaca chiede agli avventurieri di indagare a nord di Vogler.
 
-**BRANCHA 13, FLEURGREEN**
+##### **BRANCHA 13, FLEURGREEN**
 
 Gli avventurieri esplorano i territori a nord di Vogler e individuano un accampamento di circa un migliaio di soldati. Fra i soldati si vedono sia figure umane che figure incappucciate non ben identificabili. 
 
@@ -50,7 +52,7 @@ Dopo aver fatto rapporto al sindaco, gli avventurieri studiano un modo per risol
 
 Il messaggero porta una lettera che richiede a Vogler di ospitare l'esercito dell'Armata; in caso contrario Vogler verrà attaccata e distrutta.
 
-**LINARAS 14, FLEURGREEN**
+##### **LINARAS 14, FLEURGREEN**
 
 Viene decisa l'evacuazione di Vogler, vista l'impossibilità di respingere l'assalto di un esercito così grande. Randel e Becklin useranno i mercenari fedeli per rallentare l'esercito a nord di Vogler; nel frattempo gli avventurieri e le milizie organizzeranno l'evacuazione cercando le navi necessarie allo sgombero. Becklin chiede agli avventurieri di consegnare una cassa a Darrett dopo l'evacuazione; poi si allontana da Vogler insieme a Randel.
 
