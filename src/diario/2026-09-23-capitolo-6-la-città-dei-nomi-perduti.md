@@ -18,7 +18,11 @@ Dopo aver viaggiato per un centinaio di metri, superano una grande giuntura nel 
 
 ![](/static/img/6-01%20M1%20Dragon%20Spirit.png)
 
-Proseguendo nell’esplorazione, si rendono conto di essere entrati in un appartamento abitato. Nel salotto trovano un bassorilievo raffigurante draghi inchinati rispettosamente davanti a un grande cadavere di drago; in una parete della stanza è presente un teschio di drago che fissa il gruppo e pronuncia in Draconico:
+Proseguendo nell’esplorazione, si rendono conto di essere entrati in un appartamento abitato. Nel salotto trovano un bassorilievo raffigurante draghi inchinati rispettosamente davanti a un grande cadavere di drago. 
+
+![](/static/img/WhatsApp%20Image%202026-04-14%20at%2016.03.30.jpeg)
+
+In una parete della stanza è presente un teschio di drago che fissa il gruppo e pronuncia in Draconico:
 
 > _"Hai costruito il tuo trono degenere sulle nostre tombe e hai usato i nostri antenati per alimentare la tua ambizione. Ma i tuoi dèi ti hanno abbandonato e noi ti abbiamo abbattuto. Se tu ritorni...noi faremo lo stesso."_
 
