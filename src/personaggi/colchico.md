@@ -4,9 +4,9 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Epifanio
-  classe: ''
-  livello: null
-  razza: ''
+  classe: Druido
+  livello: 10
+  razza: Elfo Kagonesti
   background: ''
   allineamento: ''
   sesso: ''
