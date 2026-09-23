@@ -5,11 +5,13 @@
 
 	<body>
 
-		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
+		<header class="site-header">
+ 			 <nav class="nav-dragonlance">
+   				 <a href="/" class="nav-link">Home</a>
+  				 <a href="/diario/" class="nav-link">Diario di Campagna</a>
+   				 <a href="/personaggi/" class="nav-link">Dramatis Personae</a>
+ 				 <a href="/mappe/" class="nav-link">Atlante di Krynn</a>
+ 			 </nav>
 		</header>
 
 		<main>
