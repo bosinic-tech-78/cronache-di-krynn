@@ -257,11 +257,12 @@ hr {
 
 /* Stile per l'intestazione alta del sito */
 header {
-  background-color: #750f08; /* Rosso */
+  /* SFUMATURA */
+  background-image: linear-gradient(to bottom, #750f08 0%, #3e0502 100%);
   color: #f4e8d3; /* Colore del testo chiaro (pergamena) */
   text-align: center;
   padding: 2rem 1rem 1rem 1rem;
-  border-bottom: 4px solid #e2cc98;
+  border-bottom: 3px solid #e2cc98;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
 }
 
