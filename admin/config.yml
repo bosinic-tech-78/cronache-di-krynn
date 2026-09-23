@@ -6,8 +6,8 @@ backend:
   repo: bosinic-tech-78/cronache-di-krynn  
   branch: master
 
-site_url: https://cronache-di-krynn.pages.dev
-display_url: https://cronache-di-krynn.pages.dev
+  site_domain: cronache-di-krynn.pages.dev
+  base_url: https://api.decapcms.org
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
 # publish_mode: editorial_workflow
