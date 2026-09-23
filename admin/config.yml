@@ -2,8 +2,9 @@
 
 # The backend option specifies how to access the content for your site
 backend:
-  name: git-gateway
-  branch: master # The branch to update (optional; defaults to master)
+  name: github
+  repo: bosinic-tech-78/dragonlance-campagna  
+  branch: main
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
 # publish_mode: editorial_workflow
