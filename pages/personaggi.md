@@ -32,9 +32,8 @@ templateEngineOverride: njk
               {{ c.nome }} (Liv. {{ c.livello }}){% if not loop.last %} / {% endif %}
             {% endfor %}
           {% else %}
-            {{ pg.data.info_base.classe }}
+            {{ pg.data.info_base.classe }} (Liv. {{ pg.data.info_base.livello }})
           {% endif %}
-          {% if pg.data.info_base.livello %} (Liv. {{ pg.data.info_base.livello }}){% endif %}
         </strong>
       </p>
 
