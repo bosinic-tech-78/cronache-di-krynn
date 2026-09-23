@@ -92,4 +92,28 @@ Senza riposarsi i personaggi salgono quindi verso l’ultimo piano della Torre e
 
 Alcune passerelle abbassate fiancheggiano tre pareti come buche per l'orchestra di un teatro, mentre una pedana al centro presenta un trono ingemmato la cui parte posteriore è decorata da intagli a forma di raggi solari. Sul trono siede un umano vestito con abiti cremisi e con indosso una corona con il simbolo della Regina dei Draghi: Belephaion. 
 
-Quando Belephaion vede i personaggi esclama: "A quanto pare qualcuno si è finalmente occupato di Lohezet." Poi abbassa la mano per toccare una gemma cremisi sul bracciolo. "Non c'è più bisogno della sua incessante cautela umana. La gloria sarà solo mia. È il volere della Regina dei Draghi!" Le gemme sul trono pulsano. Sotto i personaggi la terra Trema; dalle finestre si vedono le torri della città oscillare e le rovine che iniziano a librarsi in aria.
+Quando Belephaion vede i personaggi esclama: _"A quanto pare qualcuno si è finalmente occupato di Lohezet."_ Poi abbassa la mano per toccare una gemma cremisi sul bracciolo. _"Non c'è più bisogno della sua incessante cautela umana. La gloria sarà solo mia. È il volere della Regina dei Draghi!"_ Le gemme sul trono pulsano. Sotto i personaggi la terra Trema; dalle finestre si vedono le torri della città oscillare e le rovine che iniziano a librarsi in aria.
+
+Belephaion si prende gioco dei personaggi, ordina ai draconici di attaccare, muta nella sua forma di drago e si unisce alla battaglia.
+
+![](/static/img/6-15%20T10%20Belephaion%20Reveals%20His%20True%20Form.png)
+
+Durante il combattimento, gli eroi sentono i rumori dall'esterno che indicano come la Città si sta sollevando a velocità diverse e quindi disgregando.
+
+Riescono ad avere la meglio sul Drago malvagio ma dopo la sua morte, l'isola sospesa della Soglia smette di sollevarsi. Fuori dalle finestre, pezzi di città grandi come massi si staccano, sollevandosi in aria. Sotto, interi quartieri sussultano mentre delle potenti forze li attirano verso il cielo. Alla base della torre, qualcosa si incrina. Il pavimento cede mentre la torre inizia a inclinarsi lentamente.
+
+Il gruppo si allontana dalla torre e si ritrova nel mezzo di uno scenario devastato mentre isole di pietra frastagliate ed edifici fatiscenti si alzano in cielo. Il caos ghermisce le truppe dell'Armata del drago per tutta la città. I dragonnel schivano i massi nei cieli, mentre i draconici alati si muovono rapidamente per evitare le strade spaccate.
+
+![](/static/img/6-16%20Crushed%20Draconian.png)
+
+A sud, una fiamma viola illumina il cielo. Al centro si erge un'isola solida, le cui fondamenta in pietra sono crivellate di ossa mostruose. Quest'area ospita un tempio minaccioso, con finestre illuminate da una fiamma viola ultraterrena. Mentre gli eroi osservano questo, il drago non morto cavalcato da Lord Soth ritorna e i due girano intorno alla cittadella volante in fiamme.
+
+![](/static/img/6-16%20Lord%20Soth%20on%20Karavarix.jpg)
+
+Il tempio che si protende verso il cielo è il Bastione di Takhisis. La fiamma del Cataclisma ha risvegliato i draghi morti sotto la cittadella e la loro magia ora la sostiene come un tempo sosteneva l'intera città. Mentre il resto delle rovine viene distrutto barbaramente, il Bastione di Takhisis si erge come una cittadella volante, un'arma terribile, nonché la prima del suo genere.
+
+I personaggi riescono a sfuggire dalla Città dei nomi perduti e contattano l'esercito di Kalaman. Dopo essersi ricongiunti, si allontanano dall'Armata del drago e man mano che le rupi che cingono la Città dei nomi perduti si fanno sempre più lontane, le mura di pietra rossa assumono una tonalità viola. 
+
+Un'isola sospesa fluttua sopra di esse, coronata da un terrificante tempio che arde di fiamme cataclismiche. Mentre la cittadella volante prende posizione sopra le truppe dell'Armata del drago, appaiono degli stendardi cremisi che sventolano su questa nuova spaventosa arma nell'arsenale della Regina dei Draghi.
+
+Gli eroi avanzano al livello 10 e si preparano alla difesa di Kalaman.
