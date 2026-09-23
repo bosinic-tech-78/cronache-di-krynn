@@ -1,7 +1,7 @@
 ---
 title: Capitolo 6 - La Città dei Nomi Perduti
 date: 2026-09-23T21:36:00
-image: ''
+image: /static/img/0-00 Cover Art 1.jpg
 ---
 
 ##### **KIRINOR 16, HOLMSWELT**
