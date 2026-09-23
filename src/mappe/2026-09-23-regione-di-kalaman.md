@@ -1,6 +1,6 @@
 ---
 title: Regione di Kalaman
-image: /static/img/mappa-kalaman.png
+image: /static/img/mappa-kalaman-ita.png
 segnalini:
   - nome: Kalaman
     x: 75
