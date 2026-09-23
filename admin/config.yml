@@ -5,9 +5,7 @@ backend:
   name: github
   repo: bosinic-tech-78/cronache-di-krynn  
   branch: master
-
-  site_domain: cronache-di-krynn.pages.dev
-  base_url: https://api.decapcms.org
+  auth_endpoint: https://decap-oauth-provider.netlify.app/auth
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
 # publish_mode: editorial_workflow
