@@ -4,12 +4,15 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Epifanio
+  classi:
+    - nome: Druido
+      livello: 10
+  razza: Elfo Kagonesti
+  background: Saggio (Ricercatore)
+  allineamento: N
+  sesso: M
   classe: Druido
   livello: 10
-  razza: Elfo Kagonesti
-  background: ''
-  allineamento: ''
-  sesso: ''
 aspetto:
   eta: ''
   altezza: ''
@@ -18,12 +21,12 @@ aspetto:
   carnagione: ''
   capelli: ''
 caratteristiche:
-  forza: ''
-  destrezza: ''
-  costituzione: ''
-  intelligenza: ''
-  saggezza: ''
-  carisma: ''
+  forza: '8'
+  destrezza: '18'
+  costituzione: '17'
+  intelligenza: '13'
+  saggezza: '20'
+  carisma: '14'
 combattimento:
   ca: null
   iniziativa: ''
