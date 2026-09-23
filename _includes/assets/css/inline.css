@@ -253,3 +253,19 @@ hr {
     gap: 1rem;
   }
 }
+
+/* Stile per l'intestazione alta del sito */
+header {
+  background-color: #2a1610; /* Marrone scuro stile legno/cuoio */
+  color: #f4e8d3; /* Colore del testo chiaro (pergamena) */
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  border-bottom: 4px solid #8b5a2b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin: 0 0 0.5rem 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Ombra dietro il testo per farlo risaltare */
+}
