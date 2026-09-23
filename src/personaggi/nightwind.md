@@ -6,7 +6,7 @@ info_base:
   nome_giocatore: Cipo
   classe: ''
   livello: null
-  razza: ''
+  razza: Elfo Kagonesti
   background: ''
   allineamento: ''
   sesso: ''
