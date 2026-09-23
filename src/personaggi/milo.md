@@ -1,14 +1,16 @@
 ---
 title: Milo
 tipo: PG
-image: ''
+image: /static/img/milo.png
 info_base:
   nome_giocatore: Martino
-  classe_livello: Stregone livello 10
+  classe: Stregone
+  livello: 10
   razza: Kender
   background: ''
   allineamento: ''
   sesso: ''
+  classe_livello: Stregone livello 10
 aspetto:
   eta: ''
   altezza: ''
