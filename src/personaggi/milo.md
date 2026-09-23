@@ -4,13 +4,16 @@ tipo: PG
 image: /static/img/milo.png
 info_base:
   nome_giocatore: Martino
-  classe: Stregone
-  livello: 10
+  classi:
+    - nome: Stregone
+      livello: 10
   razza: Kender
-  background: ''
+  background: Mago dell'Alta Stregoneria
   allineamento: ''
-  sesso: ''
+  sesso: M
+  classe: Stregone
   classe_livello: Stregone livello 10
+  livello: 10
 aspetto:
   eta: ''
   altezza: ''
@@ -19,12 +22,12 @@ aspetto:
   carnagione: ''
   capelli: ''
 caratteristiche:
-  forza: ''
-  destrezza: ''
-  costituzione: ''
-  intelligenza: ''
-  saggezza: ''
-  carisma: ''
+  forza: '11'
+  destrezza: '16'
+  costituzione: '11'
+  intelligenza: '11'
+  saggezza: '11'
+  carisma: '20'
 combattimento:
   ca: null
   iniziativa: ''
