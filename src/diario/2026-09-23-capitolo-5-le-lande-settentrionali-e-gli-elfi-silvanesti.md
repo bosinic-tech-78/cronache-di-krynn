@@ -118,7 +118,11 @@ Gli avventurieri fanno rapporto all’accampamento dell’esercito di Kalaman e 
 
 ##### **LINARAS 13, HOLMSWELT**
 
-In attesa di andare verso la Città dei nomi perduti, gli avventurieri accompagnano Dalaran alla Baia dalla quale il mago aveva sentito provenire un forte potere magico. Arrivati sul posto notano una nebbia che proviene da una grotta; all’interno combattono contro un lupo gigante che si rivela essere un anhkolox. Sconfitto il mostro trovano un frammento arrotondato di vetro nero dal quale proviene la nebbia. Dalaran prova ad ingannarli per prendere l’oggetto ma i personaggi lo scoprono e l’elfo si allontana per tornare dai suoi compagni Silvanesti.
+In attesa di andare verso la Città dei nomi perduti, gli avventurieri accompagnano Dalaran alla Baia dalla quale il mago aveva sentito provenire un forte potere magico. Arrivati sul posto notano una nebbia che proviene da una grotta; all’interno combattono contro un lupo gigante che si rivela essere un anhkolox. Sconfitto il mostro trovano un frammento arrotondato di vetro nero dal quale proviene la nebbia.
+
+![](/static/img/sfera_cracked.png)
+
+Dalaran prova ad ingannarli per prendere l’oggetto ma i personaggi lo scoprono e l’elfo si allontana per tornare dai suoi compagni Silvanesti.
 
 ##### **PALAST 14, HOLMSWELT**
 
