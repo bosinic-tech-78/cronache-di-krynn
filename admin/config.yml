@@ -28,17 +28,110 @@ collections:
 
   - name: "personaggi"
     label: "Dramatis Personae"
-    folder: "src/personaggi" 
+    folder: "src/personaggi"
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Nome Personaggio", name: "title", widget: "string"}
-      - {label: "Tipo", name: "tipo", widget: "select", options: ["Giocatore (PC)", "Personaggio Non Giocante (PNG)"]}
-      - {label: "Razza e Classe", name: "razza_classe", widget: "string"}
-      - {label: "Classe Armatura (CA)", name: "ca", widget: "number", value_type: "int", required: false}
-      - {label: "Punti Ferita (PF)", name: "pf", widget: "number", value_type: "int", required: false}
-      - {label: "Ritratto", name: "image", widget: "image", required: false}
-      - {label: "Storia e Appunti", name: "body", widget: "markdown"}
+      - { label: "Nome Personaggio", name: "title", widget: "string" }
+      - { label: "Tipo (PG o PNG)", name: "tipo", widget: "select", options: ["PG", "PNG"] }
+      - { label: "Immagine (Ritratto)", name: "image", widget: "image", required: false }
+      
+      - label: "Informazioni Base"
+        name: "info_base"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Nome Giocatore", name: "nome_giocatore", widget: "string", required: false }
+          - { label: "Classe e Livello", name: "classe_livello", widget: "string", required: false }
+          - { label: "Razza", name: "razza", widget: "string", required: false }
+          - { label: "Background", name: "background", widget: "string", required: false }
+          - { label: "Allineamento", name: "allineamento", widget: "string", required: false }
+          - { label: "Sesso", name: "sesso", widget: "string", required: false }
+          
+      - label: "Aspetto"
+        name: "aspetto"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Età", name: "eta", widget: "string", required: false }
+          - { label: "Altezza", name: "altezza", widget: "string", required: false }
+          - { label: "Peso", name: "peso", widget: "string", required: false }
+          - { label: "Occhi", name: "occhi", widget: "string", required: false }
+          - { label: "Carnagione", name: "carnagione", widget: "string", required: false }
+          - { label: "Capelli", name: "capelli", widget: "string", required: false }
+
+      - label: "Caratteristiche (Punteggi)"
+        name: "caratteristiche"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Forza", name: "forza", widget: "string", required: false }
+          - { label: "Destrezza", name: "destrezza", widget: "string", required: false }
+          - { label: "Costituzione", name: "costituzione", widget: "string", required: false }
+          - { label: "Intelligenza", name: "intelligenza", widget: "string", required: false }
+          - { label: "Saggezza", name: "saggezza", widget: "string", required: false }
+          - { label: "Carisma", name: "carisma", widget: "string", required: false }
+
+      - label: "Statistiche di Combattimento"
+        name: "combattimento"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Classe Armatura (CA)", name: "ca", widget: "number", required: false }
+          - { label: "Iniziativa", name: "iniziativa", widget: "string", required: false }
+          - { label: "Velocità", name: "velocita", widget: "string", required: false }
+          - { label: "Punti Ferita Massimi (PF)", name: "pf_max", widget: "number", required: false }
+          - { label: "Dadi Vita", name: "dadi_vita", widget: "string", required: false }
+          - { label: "Bonus di Competenza", name: "competenza", widget: "string", required: false }
+          - { label: "Percezione Passiva", name: "percezione_passiva", widget: "string", required: false }
+
+      - label: "Abilità, Tiri Salvezza e Competenze"
+        name: "competenze"
+        widget: "markdown"
+        required: false
+        hint: "Elenca qui in modo libero le abilità, le lingue parlate e gli strumenti."
+
+      - label: "Attacchi e Armi"
+        name: "armi"
+        widget: "list"
+        collapsed: true
+        required: false
+        fields:
+          - { label: "Nome Arma", name: "nome", widget: "string" }
+          - { label: "Bonus Attacco", name: "bonus", widget: "string", required: false }
+          - { label: "Danni / Tipo", name: "danni", widget: "string", required: false }
+
+      - label: "Personalità e Tratti"
+        name: "personalita"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Tratti Caratteriali", name: "tratti", widget: "text", required: false }
+          - { label: "Ideali", name: "ideali", widget: "text", required: false }
+          - { label: "Legami", name: "legami", widget: "text", required: false }
+          - { label: "Difetti", name: "difetti", widget: "text", required: false }
+
+      - label: "Privilegi di Classe e Razziali"
+        name: "privilegi"
+        widget: "markdown"
+        required: false
+
+      - label: "Equipaggiamento e Monete"
+        name: "equipaggiamento"
+        widget: "markdown"
+        required: false
+
+      - label: "Magia e Incantesimi"
+        name: "incantesimi"
+        widget: "markdown"
+        required: false
+        hint: "Elenca qui CD, Bonus e la tua lista di trucchetti e incantesimi divisi per livello."
+
+      - label: "Storia e Background Esteso"
+        name: "body"
+        widget: "markdown"
+        required: false
+      
   - name: "mappe"
     label: "Atlante & Mappe"
     folder: "src/mappe"
