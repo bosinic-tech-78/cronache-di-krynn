@@ -1,7 +1,7 @@
 ---
 title: 'Capitolo 1: Il Funerale e la Caduta di Vogler'
 date: 2026-09-23T14:21:00.000+02:00
-image: ''
+image: /static/img/0-00 Cover Art 1.jpg
 ---
 
 ### **Prologo**
