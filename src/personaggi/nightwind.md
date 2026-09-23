@@ -4,12 +4,17 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Cipo
-  classe: ''
-  livello: null
+  classi:
+    - nome: Ranger
+      livello: 7
+    - nome: Ladro
+      livello: 3
   razza: Elfo Kagonesti
   background: ''
   allineamento: ''
   sesso: ''
+  classe: ''
+  livello: null
 aspetto:
   eta: ''
   altezza: ''
