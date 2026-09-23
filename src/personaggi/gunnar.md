@@ -4,12 +4,15 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Nemme
+  classi:
+    - nome: Guerriero
+      livello: 10
+  razza: Umano
+  background: Cavaliere di Solamnia
+  allineamento: CN
+  sesso: M
   classe: Guerriero
   livello: 10
-  razza: Umano
-  background: ''
-  allineamento: ''
-  sesso: ''
 aspetto:
   eta: ''
   altezza: ''
@@ -18,12 +21,12 @@ aspetto:
   carnagione: ''
   capelli: ''
 caratteristiche:
-  forza: ''
-  destrezza: ''
-  costituzione: ''
-  intelligenza: ''
-  saggezza: ''
-  carisma: ''
+  forza: '18'
+  destrezza: '12'
+  costituzione: '14'
+  intelligenza: '10'
+  saggezza: '13'
+  carisma: '9'
 combattimento:
   ca: null
   iniziativa: ''
