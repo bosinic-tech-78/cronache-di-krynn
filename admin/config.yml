@@ -42,8 +42,14 @@ collections:
         collapsed: true
         fields:
           - { label: "Nome Giocatore", name: "nome_giocatore", widget: "string", required: false }
-          - { label: "Classe", name: "classe", widget: "string", required: false }
-          - { label: "Livello", name: "livello", widget: "number", value_type: "int", required: false }
+          - label: "Classi (Supporta il Multiclasse)"
+            name: "classi"
+            widget: "list"
+            collapsed: false
+            summary: '{{fields.nome}} (Liv. {{fields.livello}})'
+            fields:
+              - { label: "Nome Classe (es. Guerriero)", name: "nome", widget: "string" }
+              - { label: "Livello", name: "livello", widget: "number", value_type: "int", default: 1 }
           - { label: "Razza", name: "razza", widget: "string", required: false }
           - { label: "Background", name: "background", widget: "string", required: false }
           - { label: "Allineamento", name: "allineamento", widget: "string", required: false }
