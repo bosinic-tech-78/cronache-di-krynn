@@ -1,196 +1,322 @@
+/* Colori base e Font */
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-html,
-body {
-	padding: 0;
-	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    --bg-color: #f4e4bc; /* Colore pergamena */
+    --text-color: #2b2b2b; /* Grigio molto scuro per leggibilità */
+    --accent-red: #6b0f1a; /* Rosso scuro Esercito dei Draghi */
+    --accent-gold: #c59b27; /* Oro Solamnico */
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
-	background-color: var(--background);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Lora', serif; /* Font per il testo lungo */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png'); /* Texture leggera */
 }
 
+h1, h2, h3 {
+    font-family: 'Cinzel', serif; /* Font gotico/epico per i titoli */
+    color: var(--accent-red);
+    text-align: center;
+}
+
+/* Intestazione */
+header {
+    background-color: var(--accent-red);
+    color: var(--bg-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom: 5px solid var(--accent-gold);
+}
+
+header h1 {
+    color: var(--accent-gold);
+    font-size: 3rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header h2 {
+    color: var(--bg-color);
+    margin-top: 0.5rem;
+}
+
+/* Barra di navigazione */
+nav {
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: var(--bg-color);
+    text-decoration: none;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-gold);
+}
+
+/* Contenuto Principale */
 main {
-	max-width: 37.5em;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
 }
 
-p,
-pre,
-code {
-	line-height: 1.5;
+.intro, .latest-update {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 2rem;
+    border: 1px solid var(--accent-gold);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
 }
 
-a[href],
-a[href]:visited {
-	color: var(--primary);
+a {
+    color: var(--accent-red);
+    font-weight: bold;
 }
 
-a[href]:not(:hover) {
-	text-decoration: none;
-}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
-
-header,
-main,
+/* Piè di pagina */
 footer {
-	padding: 1em;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    border-top: 1px solid var(--accent-gold);
+    margin-top: 3rem;
 }
 
-main {
-	padding-bottom: 2em;
+/* Stile per le immagini del diario */
+.img-diario {
+    display: block;
+    max-width: 100%; /* Si adatta agli schermi dei cellulari */
+    height: auto;
+    margin: 2rem auto; /* Le centra automaticamente */
+    border: 3px solid var(--accent-gold);
+    border-radius: 4px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
 }
 
-main :first-child,
-main > article :first-child {
-	margin-top: 0;
+/* --- STILI PER I PERSONAGGI (Dramatis Personae) --- */
+
+.section-title {
+    margin-bottom: 2rem;
+    font-size: 2.2rem;
+    border-bottom: 2px solid var(--accent-gold);
+    display: inline-block;
+    padding-bottom: 0.5rem;
 }
 
-pre {
-	font-size: 14px;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	-moz-tab-size: 2;
-	tab-size: 2;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	padding: 1em;
-	margin: .5em 0;
+.divider {
+    border: 0;
+    height: 1px;
+    background: var(--accent-gold);
+    margin: 4rem 0;
 }
 
-/* Header Logo (style as h2) */
-header > em {
-	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
+/* Griglia flessibile: adatta le carte allo schermo */
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
 }
 
-/* Header Nav */
-header nav ul {
-	padding: 0;
-	list-style: none;
+/* Stile della Carta del Personaggio */
+.character-card {
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid var(--accent-gold);
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
 }
 
-header nav ul :first-child {
-	margin-left: 0;
+.character-card:hover {
+    transform: translateY(-5px); /* Effetto sollevamento quando passi il mouse */
 }
 
-header nav li {
-	display: inline-block;
-	margin: 0 .25em;
+/* Variazioni per i nemici (bordo e sfondo più cupi) */
+.enemy-card {
+    border-color: var(--accent-red);
+    background-color: rgba(107, 15, 26, 0.05);
 }
 
-header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+.enemy-card h3 {
+    color: var(--accent-red);
 }
 
-header nav li a[href]:not(:hover) {
-	text-decoration: none;
+/* Immagine Ritratto Rotonda */
+.character-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--accent-gold);
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
 }
 
-header nav li a[data-current="current item"] {
-	background-color: white;
+.enemy-card .character-img {
+    border-color: var(--accent-red);
 }
 
-/* Posts List */
-article {
-	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+.character-role {
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    color: var(--accent-gold);
+    margin-top: -10px;
+    margin-bottom: 15px;
 }
 
-main > section > article > * {
-	margin-top: 0;
-	margin-bottom: .5em;
+.character-desc {
+    font-size: 0.95rem;
+    text-align: justify;
 }
 
-/* Post Tags */
-a[rel="tag"],
-a[rel="tag"]:visited {
-	display: inline-block;
-  vertical-align: text-top;
-  text-transform: uppercase;
-	letter-spacing: .1em;
-  font-size: .625em;
-  padding: 0 .5em;
-	line-height: 2em;
-	height: 2em;
-  border: 1px solid var(--secondary);
-	background-color: var(--secondary);
-	color: var(--primary);
-  border-radius: .25em;
-  text-decoration: none;
-	margin: 0 .5em .5em 0;
+
+/* --- STILI PER LE SCHEDE D&D 5E COMPLETE --- */
+
+.dnd-sheet {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid var(--accent-gold);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.15);
+    text-align: left; /* Riporta il testo a sinistra per le schede */
 }
 
-a[rel="tag"]:hover {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
+/* Intestazione: Ritratto a sinistra, Info Base a destra */
+.sheet-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--accent-red);
+    padding-bottom: 1rem;
 }
 
-a[rel="tag"]:last-child {
-	margin-right: 0;
+.sheet-header .character-img {
+    margin: 0;
+    width: 120px;
+    height: 120px;
 }
 
-/* Contact Form */
-form {
-  display: grid;
-	padding: 2em 0;
+.sheet-basic-info {
+    flex: 1;
+    min-width: 250px;
 }
 
-form label {
-  display: none;
+.sheet-basic-info h3 {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
 }
 
-input,
-textarea,
-button {
-  width: 100%;
-  padding: 1em;
-  margin-bottom: 1em;
-	font-size: 1rem;
-	font-family: "Avenir", "Avenir Next", sans-serif;
+.sheet-basic-info p {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
 }
 
-input,
-textarea {
-	border: 1px solid black;
+/* Griglia delle 6 Caratteristiche Base */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
-button {
-	border: 1px solid var(--primary);
-	background-color: var(--primary);
-	color: var(--secondary);
-	cursor: pointer;
+.stat-box {
+    background-color: var(--bg-color);
+    border: 1px solid var(--accent-gold);
+    border-radius: 6px;
+    padding: 0.5rem;
 }
 
-@media screen and (min-width:768px) {
-	:root {
-		font-size: 1.1rem;
-	}
+.stat-box .stat-name {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.stat-box .stat-score {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--accent-red);
+}
+
+.stat-box .stat-mod {
+    font-size: 0.9rem;
+}
+
+/* Statistiche di Combattimento (CA, PF, ecc.) */
+.combat-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--accent-red);
+    color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.combat-stat-item {
+    padding: 0.5rem 1rem;
+}
+
+.combat-stat-item span {
+    display: block;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+.combat-stat-item strong {
+    font-size: 1.5rem;
+    font-family: 'Cinzel', serif;
+}
+
+/* Layout a due colonne per Abilità e Tratti/Equipaggiamento */
+.sheet-body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .sheet-body {
+        grid-template-columns: 1fr; /* Su cellulare diventa una singola colonna */
+    }
+}
+
+.sheet-list h4 {
+    color: var(--accent-red);
+    border-bottom: 1px solid var(--accent-gold);
+    margin-top: 0;
+    padding-bottom: 5px;
+}
+
+.sheet-list p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
 }
