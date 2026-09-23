@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<article class="pergamena-container">
+  <header>
+    <h1>{{ title }}</h1>
+    <p><em>Data sessione: {{ date | dateFilter }}</em></p>
+  </header>
+  
+  <div class="testo-capitolo">
+    {{ content | safe }}
+  </div>
+</article>
