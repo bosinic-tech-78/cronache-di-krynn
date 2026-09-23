@@ -43,12 +43,12 @@ collections:
       - {label: "Ritratto", name: "image", widget: "image", required: false}
       - {label: "Storia e Appunti", name: "body", widget: "markdown"}
   - name: "mappe"
-      label: "Atlante & Mappe"
-      folder: "src/mappe"
-      create: true
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-      fields:
-        - { label: "Titolo Luogo / Mappa", name: "title", widget: "string" }
-        - { label: "Descrizione Breve", name: "description", widget: "string" }
-        - { label: "Immagine Mappa", name: "image", widget: "image", required: false }
-        - { label: "Note Geografiche / Dettagli", name: "body", widget: "markdown", required: false }
+    label: "Atlante & Mappe"
+    folder: "src/mappe"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titolo Luogo / Mappa", name: "title", widget: "string" }
+      - { label: "Descrizione Breve", name: "description", widget: "string" }
+      - { label: "Immagine Mappa", name: "image", widget: "image", required: false }
+      - { label: "Note Geografiche / Dettagli", name: "body", widget: "markdown", required: false }
