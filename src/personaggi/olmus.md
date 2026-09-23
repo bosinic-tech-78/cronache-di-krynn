@@ -4,9 +4,9 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Cesco
-  classe: ''
-  livello: null
-  razza: ''
+  classe: Guerriero
+  livello: 10
+  razza: Umano
   background: ''
   allineamento: ''
   sesso: ''
