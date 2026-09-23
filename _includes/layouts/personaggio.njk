@@ -19,7 +19,9 @@ layout: layouts/base.njk
       {{ info_base.classe }}
     {% endif %}
     <br>
-      <strong>Livello:</strong> {{ info_base.livello }}<br>
+      {% if not info_base.classi %}
+        <strong>Livello:</strong> {{ info_base.livello }}<br>
+      {% endif %}
       <strong>Background:</strong> {{ info_base.background }}
     </div>
     <div style="flex: 1; min-width: 200px;">
