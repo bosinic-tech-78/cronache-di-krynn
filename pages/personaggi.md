@@ -24,31 +24,32 @@ templateEngineOverride: njk
         </div>
       {% endif %}
 
-      <p style="text-align: center;"><strong>{{ pg.data.razza_classe }}</strong></p>
+      <p style="text-align: center;">
+        <strong>
+          {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %} 
+          {% if pg.data.info_base.classe_livello %} - {{ pg.data.info_base.classe_livello }}{% endif %}
+        </strong>
+      </p>
 
-      {% if pg.data.ca or pg.data.pf %}
-        <div class="statistiche-grid" style="margin-bottom: 1rem;">
-          {% if pg.data.ca %}
-            <div class="stat-box">
-              <span class="stat-label">CA</span>
-              <span class="stat-value">{{ pg.data.ca }}</span>
-            </div>
-          {% endif %}
-          {% if pg.data.pf %}
-            <div class="stat-box">
-              <span class="stat-label">PF</span>
-              <span class="stat-value">{{ pg.data.pf }}</span>
-            </div>
-          {% endif %}
-        </div>
-      {% endif %}
+      <div class="statistiche-grid" style="margin-bottom: 1rem;">
+        {% if pg.data.combattimento.ca %}
+          <div class="stat-box">
+            <span class="stat-label">CA</span>
+            <span class="stat-value">{{ pg.data.combattimento.ca }}</span>
+          </div>
+        {% endif %}
+        {% if pg.data.combattimento.pf_max %}
+          <div class="stat-box">
+            <span class="stat-label">PF</span>
+            <span class="stat-value">{{ pg.data.combattimento.pf_max }}</span>
+          </div>
+        {% endif %}
+      </div>
 
-      {% if pg.templateContent %}
-        <p class="cta-link"><a href="{{ pg.url }}">Leggi la storia &rarr;</a></p>
-      {% endif %}
+      <p class="cta-link"><a href="{{ pg.url }}">Leggi la scheda completa &rarr;</a></p>
     </div>
   {% else %}
-    <p><em>Nessun personaggio registrato per il momento. Aggiungi i primi protagonisti dal pannello CMS!</em></p>
+    <p><em>Nessun personaggio registrato per il momento.</em></p>
   {% endfor %}
   </div>
 </div>
