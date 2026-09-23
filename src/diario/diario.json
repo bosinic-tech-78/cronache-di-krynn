@@ -1,4 +1,5 @@
 {
   "layout": "layouts/diario.njk",
-  "tags": ["diario"]
+  "tags": ["diario"],
+  "permalink": "/diario/{{ page.fileSlug }}/"
 }
