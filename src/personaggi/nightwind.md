@@ -10,9 +10,9 @@ info_base:
     - nome: Ladro
       livello: 3
   razza: Elfo Kagonesti
-  background: ''
-  allineamento: ''
-  sesso: ''
+  background: Artigiano di Gilda (Cartografo)
+  allineamento: NB
+  sesso: M
   classe: ''
   livello: null
 aspetto:
@@ -23,12 +23,12 @@ aspetto:
   carnagione: ''
   capelli: ''
 caratteristiche:
-  forza: ''
-  destrezza: ''
-  costituzione: ''
-  intelligenza: ''
-  saggezza: ''
-  carisma: ''
+  forza: '10'
+  destrezza: '18'
+  costituzione: '12'
+  intelligenza: '10'
+  saggezza: '16'
+  carisma: '10'
 combattimento:
   ca: null
   iniziativa: ''
