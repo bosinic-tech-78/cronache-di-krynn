@@ -45,5 +45,5 @@ personalita:
   difetti: ''
 privilegi: ''
 equipaggiamento: ''
-incantesimi: ''
+incantesimi: Liv.3 Palla di Fuoco
 ---
