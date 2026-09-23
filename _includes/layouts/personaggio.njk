@@ -1,0 +1,52 @@
+---
+layout: layouts/base.njk
+---
+<div class="pergamena-container">
+  <div style="text-align: center; border-bottom: 2px solid #8b5a2b; padding-bottom: 1rem; margin-bottom: 2rem;">
+    <h1 style="margin-bottom: 0;">{{ title }}</h1>
+    {% if info_base.nome_giocatore %}<p style="margin-top: 0.5rem; font-style: italic;">Giocato da: {{ info_base.nome_giocatore }}</p>{% endif %}
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; background: rgba(255,255,255,0.4); padding: 1rem; border-radius: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+      <strong>Razza:</strong> {{ info_base.razza }}<br>
+      <strong>Classe:</strong> {{ info_base.classe_livello }}<br>
+      <strong>Background:</strong> {{ info_base.background }}
+    </div>
+    <div style="flex: 1; min-width: 200px;">
+      <strong>Allineamento:</strong> {{ info_base.allineamento }}<br>
+      <strong>Sesso:</strong> {{ info_base.sesso }}<br>
+      <strong>Età:</strong> {{ aspetto.eta }}
+    </div>
+  </div>
+
+  <div style="display: flex; justify-content: space-around; text-align: center; background: #3e2723; color: #fff; padding: 1rem; border-radius: 8px; margin-bottom: 2rem;">
+    <div><strong>FOR</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.forza | default("-") }}</span></div>
+    <div><strong>DES</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.destrezza | default("-") }}</span></div>
+    <div><strong>COS</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.costituzione | default("-") }}</span></div>
+    <div><strong>INT</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.intelligenza | default("-") }}</span></div>
+    <div><strong>SAG</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.saggezza | default("-") }}</span></div>
+    <div><strong>CAR</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.carisma | default("-") }}</span></div>
+  </div>
+
+  <div style="display: flex; gap: 2rem; justify-content: center; margin-bottom: 2rem; font-size: 1.2rem;">
+    <div>🛡️ <strong>CA:</strong> {{ combattimento.ca }}</div>
+    <div>❤️ <strong>PF:</strong> {{ combattimento.pf_max }}</div>
+    <div>⚡ <strong>Iniziativa:</strong> {{ combattimento.iniziativa }}</div>
+    <div>🏃 <strong>Velocità:</strong> {{ combattimento.velocita }}</div>
+  </div>
+
+  {% if armi.length > 0 %}
+  <h3>Attacchi e Armi</h3>
+  <ul>
+    {% for arma in armi %}
+      <li><strong>{{ arma.nome }}</strong> — Attacco: {{ arma.bonus }} | Danni: {{ arma.danni }}</li>
+    {% endfor %}
+  </ul>
+  <hr>
+  {% endif %}
+
+  <div class="testo-personaggio" style="margin-top: 2rem;">
+    {{ content | safe }}
+  </div>
+</div>
