@@ -3,6 +3,7 @@
    ========================================== */
 
 /* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=MedievalSharp&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=IM+Fell+English:ital@0;1&display=swap');
 
 :root {
@@ -268,4 +269,39 @@ header h1 {
   font-size: 2.8rem;
   margin: 0 0 0.5rem 0;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Ombra dietro il testo per farlo risaltare */
+}
+
+/* --- STILE FANTASY GENERALE --- */
+
+/* 1. Colore dell'inchiostro per il testo normale (marrone molto scuro, non nero) */
+body {
+  color: #2b1704; 
+}
+
+/* 2. Font epico per i titoli */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif; /* Cambia 'Cinzel' con 'MedievalSharp' se preferisci lo stile rustico */
+  color: #5c2018; /* Marrone rossiccio (sangue di drago) per far risaltare i titoli */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+/* 3. Colore dei link (per renderli in armonia con la pergamena) */
+a {
+  color: #632a15;
+  text-decoration-color: rgba(99, 42, 21, 0.4);
+}
+a:hover {
+  color: #8b1e04;
+  text-decoration-color: #8b1e04;
+}
+
+/* 4. Effetto pergamena più realistico */
+.pergamena-container {
+  /* Crea una sfumatura: chiaro al centro, bruciacchiato/scuro ai bordi */
+  background-image: radial-gradient(circle, #fbf4e6 40%, #e8d0a9 100%);
+  border: 2px solid #8b5a2b;
+  /* Aggiunge un'ombra esterna più profonda e un'ombra interna per simulare l'usura */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 40px rgba(139, 90, 43, 0.15);
 }
