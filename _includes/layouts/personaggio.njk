@@ -10,7 +10,15 @@ layout: layouts/base.njk
   <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; background: rgba(255,255,255,0.4); padding: 1rem; border-radius: 8px;">
     <div style="flex: 1; min-width: 200px;">
       <strong>Razza:</strong> {{ info_base.razza }}<br>
-      <strong>Classe:</strong> {{ info_base.classe }}<br>
+      <strong>Classe:</strong> 
+      {% if info_base.classi %}
+        {% for c in info_base.classi %}
+          {{ c.nome }} (Liv. {{ c.livello }}){% if not loop.last %} / {% endif %}
+        {% endfor %}
+    {% else %}
+      {{ info_base.classe }}
+    {% endif %}
+    <br>
       <strong>Livello:</strong> {{ info_base.livello }}<br>
       <strong>Background:</strong> {{ info_base.background }}
     </div>
