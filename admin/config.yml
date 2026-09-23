@@ -15,9 +15,9 @@ backend:
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
 collections:
- - name: "diario"
+  - name: "diario"
     label: "Diario di Campagna"
-    folder: "src/diario" # o la cartella usata dal tuo boilerplate per i post
+    folder: "src/diario"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -34,7 +34,7 @@ collections:
     fields:
       - {label: "Nome Personaggio", name: "title", widget: "string"}
       - {label: "Tipo", name: "tipo", widget: "select", options: ["Giocatore (PC)", "Personaggio Non Giocante (PNG)"]}
-      - {label: "Razza e Classe", name: "razza_classe", widget: "string", hint: "es. Umano Guerriero"}
+      - {label: "Razza e Classe", name: "razza_classe", widget: "string"}
       - {label: "Classe Armatura (CA)", name: "ca", widget: "number", value_type: "int", required: false}
       - {label: "Punti Ferita (PF)", name: "pf", widget: "number", value_type: "int", required: false}
       - {label: "Ritratto", name: "image", widget: "image", required: false}
