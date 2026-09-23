@@ -225,3 +225,14 @@ hr {
   text-align: right;
   font-weight: bold;
 }
+
+/* Adatta le immagini al contenitore e aggiunge cornice 3D */
+.pergamena-container img {
+  max-width: 100%;
+  height: auto;
+  border: 6px solid #4a2f1d;
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+  display: block;
+  margin: 2rem auto;
+}
