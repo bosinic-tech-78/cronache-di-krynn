@@ -2,6 +2,7 @@
 layout: layouts/base.njk
 permalink: /
 title: "Le Cronache di Krynn"
+templateEngineOverride: njk
 ---
 <div class="pergamena-container">
   <h1>Le Cronache di Krynn</h1>
