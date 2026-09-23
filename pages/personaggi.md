@@ -27,7 +27,8 @@ templateEngineOverride: njk
       <p style="text-align: center;">
         <strong>
           {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %} 
-          {% if pg.data.info_base.classe_livello %} - {{ pg.data.info_base.classe_livello }}{% endif %}
+          {% if pg.data.info_base.classe %} - {{ pg.data.info_base.classe }}{% endif %}
+          {% if pg.data.info_base.livello %} (Liv. {{ pg.data.info_base.livello }}){% endif %}
         </strong>
       </p>
 
