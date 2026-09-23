@@ -139,7 +139,17 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Titolo Luogo / Mappa", name: "title", widget: "string" }
-      - { label: "Descrizione Breve", name: "description", widget: "string" }
-      - { label: "Immagine Mappa", name: "image", widget: "image", required: false }
-      - { label: "Note Geografiche / Dettagli", name: "body", widget: "markdown", required: false }
+      - { label: "Titolo Mappa", name: "title", widget: "string" }
+      - { label: "Immagine Mappa", name: "image", widget: "image" }
+      
+      - label: "Segnalini Interattivi (Opzionale)"
+        name: "segnalini"
+        widget: "list"
+        collapsed: true
+        required: false
+        fields:
+          - { label: "Nome Luogo", name: "nome", widget: "string" }
+          - { label: "Posizione X (Orizzontale: da 0 a 100)", name: "x", widget: "number", value_type: "int" }
+          - { label: "Posizione Y (Verticale: da 0 a 100)", name: "y", widget: "number", value_type: "int" }
+          
+      - { label: "Descrizione o Storia", name: "body", widget: "markdown", required: false }
