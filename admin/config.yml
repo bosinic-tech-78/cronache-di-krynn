@@ -4,7 +4,7 @@
 backend:
   name: github
   repo: bosinic-tech-78/cronache-di-krynn  
-  branch: main
+  branch: master
 
 # Uncomment below to enable drafts https://www.decapcms.org/docs/add-to-your-site/#editorial-workflow
 # publish_mode: editorial_workflow
