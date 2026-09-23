@@ -4,9 +4,9 @@ tipo: PG
 image: ''
 info_base:
   nome_giocatore: Menni
-  classe: ''
-  livello: null
-  razza: ''
+  classe: Paladino
+  livello: 10
+  razza: Umano
   background: ''
   allineamento: ''
   sesso: ''
