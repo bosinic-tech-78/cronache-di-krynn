@@ -60,7 +60,11 @@ personalita:
   difetti: ''
 privilegi_lista: []
 equipaggiamento_lista: []
-incantesimi_lista: []
+incantesimi_lista:
+  - livello: 1° Livello
+    lista: Parlare con gli Animali, Nube di Nebbia, Colpo dello Zefiro, Camuffare se Stesso
+  - livello: 2° Livello
+    lista: Silenzio, Evocare Bestia, Trucco della Corda
 competenze: ''
 equipaggiamento: ''
 incantesimi: ''
