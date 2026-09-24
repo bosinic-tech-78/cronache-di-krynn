@@ -1,7 +1,7 @@
 ---
 title: Faruk
 tipo: PG
-image: ''
+image: /static/img/WhatsApp Image 2026-09-24 at 18.59.27.jpeg
 info_base:
   nome_giocatore: Menny
   classi:
