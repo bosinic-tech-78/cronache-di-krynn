@@ -46,9 +46,7 @@ competenze_lista: []
 talenti:
   - nome: Maestro dell'Arma ad Asta
     descrizione: ''
-  - nome: Colpo Preciso
-    descrizione: ''
-  - nome: Montare
+  - nome: Scudiero di Solamnia
     descrizione: ''
   - nome: Sentinella
     descrizione: ''
