@@ -43,12 +43,12 @@ combattimento:
   competenza: '+4'
   percezione_passiva: '10'
 abilita_lista: []
+competenze_lista: []
 talenti:
   - nome: Iniziato all'Alta Stregoneria
     descrizione: Scegli una delle tre lune di Krynn per influenzare la tua magia (Nuitari, la luna nera). Apprendi un trucchetto a scelta dalla lista degli incantesimi del mago e due incantesimi di 1° livello in base alla luna scelta (Sussurri dissonanti e Sortilegio). Puoi lanciare entrambi gli incantesimi senza usare slot ogni riposo lungo.
   - nome: Adepto delle Vesti Nere
     descrizione: "Canale Vitale: Se una creatura fallisce un tiro salvezza puoi spendere un numero di dadi vita pari al livello dell'incantesimo da aggiungere al danno totale. Magia ambiziosa: Apprendi un incantesimo di 2° Livello a tua scelta (Corona di follia), Puoi lanciare l'incantesimo senza usare slot ogni riposo lungo."
-competenze: ''
 armi: []
 personalita:
   tratti: ''
@@ -56,9 +56,7 @@ personalita:
   legami: ''
   difetti: ''
 privilegi_lista: []
-privilegi: ''
-equipaggiamento: ''
-incantesimi: ''
+equipaggiamento_lista: []
 incantesimi_lista:
   - livello: Trucchetti
     lista: ILLUSIONE MINORE, MANO MAGICA, DARDO DI FUOCO, SPRUZZO VELENOSO, TOCCO GELIDO, SCHEGGIA MENTALE, LENZA ELETTRIZZANTE
@@ -85,4 +83,13 @@ incantesimi_lista:
     lista: |-
       SCOSSA SINAPTICA
       BLOCCA MOSTRI
+  - livello: 3° Livello
+    lista: |-
+      PALLA DI FUOCO
+      TRAMA IPNOTICA
+      CONTROINCANTESIMO
+competenze: ''
+equipaggiamento: ''
+incantesimi: ''
+privilegi: ''
 ---
