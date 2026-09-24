@@ -43,7 +43,19 @@ combattimento:
   percezione_passiva: '15'
 abilita_lista: []
 competenze_lista: []
-talenti: []
+talenti:
+  - nome: Maestro dell'Arma ad Asta
+    descrizione: ''
+  - nome: Colpo Preciso
+    descrizione: ''
+  - nome: Montare
+    descrizione: ''
+  - nome: Sentinella
+    descrizione: ''
+  - nome: Cavaliere della Corona
+    descrizione: ''
+  - nome: Contundente
+    descrizione: ''
 armi: []
 personalita:
   tratti: ''
