@@ -1,7 +1,7 @@
 ---
 title: Nightwind
 tipo: PG
-image: ''
+image: /static/img/WhatsApp Image 2026-09-24 at 17.58.07.jpeg
 info_base:
   nome_giocatore: Cipo
   classi:
