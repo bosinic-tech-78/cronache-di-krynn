@@ -164,12 +164,6 @@ collections:
         widget: "markdown"
         required: false
 
-      - label: "Magia e Incantesimi"
-        name: "incantesimi"
-        widget: "markdown"
-        required: false
-        hint: "Elenca qui CD, Bonus e la tua lista di trucchetti e incantesimi divisi per livello."
-
       - label: "Magia e Incantesimi (Testo vecchio)"
         name: "incantesimi"
         widget: "markdown"
