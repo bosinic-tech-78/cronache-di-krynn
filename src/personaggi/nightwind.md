@@ -45,7 +45,13 @@ combattimento:
   percezione_passiva: '21'
 abilita_lista: []
 competenze_lista: []
-talenti: []
+talenti:
+  - nome: Tough
+    descrizione: Il massimo dei punti ferita aumenta di un ammontare pari al doppio del livello quando ottieni questo talento; ogni livello successivo aumenta di ulteriori 2 punti ferita.
+  - nome: Allerta
+    descrizione: "Sempre alla ricerca del pericolo: +5 all'iniziativa, non puoi essere colto di sorpresa mentre sei cosciente, e le altre creature non ottengono vantaggio sui tiri per colpire contro di te per il solo fatto di essere invisibili a te."
+  - nome: Avvelenatore
+    descrizione: Ottieni competenza con il kit da avvelenatore (o raddoppi il bonus di competenza se già competente) e conosci la formula del veleno di base, che puoi preparare durante un riposo lungo. Come azione bonus puoi applicare veleno su un'arma o fino a tre munizioni; il veleno resta efficace per 1 minuto o finché non colpisci con l'arma o la munizione avvelenata. Quando infliggi danno da veleno con un attacco, il bersaglio subisce 2d8 danni da veleno aggiuntivi e deve superare un tiro salvezza su Costituzione (CD 8 + bonus di competenza + modificatore di Destrezza) o essere avvelenato fino alla fine del tuo prossimo turno. Sei inoltre resistente al danno da veleno.
 armi: []
 personalita:
   tratti: ''
