@@ -62,31 +62,27 @@ incantesimi_lista:
     lista: ILLUSIONE MINORE, MANO MAGICA, DARDO DI FUOCO, SPRUZZO VELENOSO, TOCCO GELIDO, SCHEGGIA MENTALE, LENZA ELETTRIZZANTE
   - livello: 1° Livello
     lista: |-
-      SUSSURRI DISSONANTI (BG DL)
-      SORTILEGIO (BG DL)
-      DARDO INCANTATO
+      SUSSURRI DISSONANTI (BG DL),
+      SORTILEGIO (BG DL),
+      DARDO INCANTATO,
       GLOBO CROMATICO
   - livello: 2° Livello
     lista: |-
-      INVISIBILITA'
-      CORONA DELLA FOLLIA (TALENTO DL)
-      INCANTESIMI DI TERZO LIVELLO:
-      PALLA DI FUOCO
-      TRAMA IPNOTICA
-      CONTROINCANTESIMO
+      INVISIBILITA',
+      CORONA DELLA FOLLIA (TALENTO DL),
   - livello: 3° Livello
     lista: |-
-      PALLA DI FUOCO
-      TRAMA IPNOTICA
+      PALLA DI FUOCO,
+      TRAMA IPNOTICA,
       CONTROINCANTESIMO
   - livello: 4° Livello
     lista: |-
-      ESILIO
-      INVISIBILITA' SUPERIORE
+      ESILIO,
+      INVISIBILITA' SUPERIORE,
       PORTA DIMENSIONALE
   - livello: 5° Livello
     lista: |-
-      SCOSSA SINAPTICA
+      SCOSSA SINAPTICA,
       BLOCCA MOSTRI
 competenze: ''
 equipaggiamento: ''
