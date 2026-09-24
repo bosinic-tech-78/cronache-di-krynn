@@ -104,21 +104,53 @@ layout: layouts/base.njk
     </ul>
   {% endif %}
 
+  <!-- VECCHIE ABILITÀ TESTUALI (se compilate nel CMS) -->
+  {% if competenze %}
+    <h3 style="margin-top: 1.5rem;">Altre Competenze e Lingue</h3>
+    <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ competenze | safe }}</div>
+  {% endif %}
+
+  <!-- NUOVI TALENTI -->
+  {% if talenti %}
+    <h3 style="margin-top: 1.5rem;">Talenti</h3>
+    <ul>
+      {% for talento in talenti %}
+        <li>
+          <strong>{{ talento.nome }}</strong>
+          {% if talento.descrizione %}<br><span style="font-size: 0.9em;">{{ talento.descrizione }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <!-- NUOVI PRIVILEGI DI CLASSE STRUTTURATI -->
+  {% if privilegi_lista %}
+    <h3 style="margin-top: 1.5rem;">Privilegi di Classe</h3>
+    <ul>
+      {% for priv in privilegi_lista %}
+        <li>
+          <strong>{{ priv.nome }}</strong>
+          {% if priv.descrizione %}<br><span style="font-size: 0.9em;">{{ priv.descrizione }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
   <!-- VECCHI PRIVILEGI TESTUALI E TRATTI -->
   {% if privilegi %}
     <h3 style="margin-top: 1.5rem;">Tratti Razziali e Altri Privilegi</h3>
-    <div>{{ privilegi | safe }}</div>
+    <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ privilegi | safe }}</div>
   {% endif %}
 
   <!-- EQUIPAGGIAMENTO E MAGIA -->
   {% if equipaggiamento %}
     <h3 style="margin-top: 1.5rem;">Equipaggiamento e Monete</h3>
-    <div>{{ equipaggiamento | safe }}</div>
+    <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ equipaggiamento | safe }}</div>
   {% endif %}
 
   {% if incantesimi %}
     <h3 style="margin-top: 1.5rem;">Magia e Incantesimi</h3>
-    <div>{{ incantesimi | safe }}</div>
+    <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ incantesimi | safe }}</div>
   {% endif %}
 
   <!-- STORIA / BACKGROUND ESTESO (Il testo libero in fondo al CMS) -->
