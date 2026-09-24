@@ -74,6 +74,11 @@ incantesimi_lista:
       PALLA DI FUOCO
       TRAMA IPNOTICA
       CONTROINCANTESIMO
+  - livello: 3° Livello
+    lista: |-
+      PALLA DI FUOCO
+      TRAMA IPNOTICA
+      CONTROINCANTESIMO
   - livello: 4° Livello
     lista: |-
       ESILIO
@@ -83,11 +88,6 @@ incantesimi_lista:
     lista: |-
       SCOSSA SINAPTICA
       BLOCCA MOSTRI
-  - livello: 3° Livello
-    lista: |-
-      PALLA DI FUOCO
-      TRAMA IPNOTICA
-      CONTROINCANTESIMO
 competenze: ''
 equipaggiamento: ''
 incantesimi: ''
