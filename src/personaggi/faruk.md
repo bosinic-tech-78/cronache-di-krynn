@@ -43,7 +43,15 @@ combattimento:
   percezione_passiva: '10'
 abilita_lista: []
 competenze_lista: []
-talenti: []
+talenti:
+  - nome: Sentinella
+    descrizione: ''
+  - nome: Maestro Delle Armi Su Asta
+    descrizione: ''
+  - nome: Combattere Con Armi Possenti
+    descrizione: ''
+  - nome: Mobilità
+    descrizione: ''
 armi: []
 personalita:
   tratti: ''
