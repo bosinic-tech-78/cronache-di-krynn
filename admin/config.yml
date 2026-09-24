@@ -170,6 +170,21 @@ collections:
         required: false
         hint: "Elenca qui CD, Bonus e la tua lista di trucchetti e incantesimi divisi per livello."
 
+      - label: "Magia e Incantesimi (Testo vecchio)"
+        name: "incantesimi"
+        widget: "markdown"
+        required: false
+
+      - label: "Incantesimi (Lista Strutturata)"
+        name: "incantesimi_lista"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: '{{fields.livello}}'
+        fields:
+          - { label: "Livello (es. Trucchetti, 1° Livello)", name: "livello", widget: "string" }
+          - { label: "Incantesimi Conosciuti", name: "lista", widget: "text", hint: "Scrivi gli incantesimi separati da virgola" }
+
       - label: "Storia e Background Esteso"
         name: "body"
         widget: "markdown"
