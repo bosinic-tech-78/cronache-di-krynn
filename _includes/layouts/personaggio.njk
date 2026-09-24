@@ -148,22 +148,16 @@ layout: layouts/base.njk
     <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ equipaggiamento | safe }}</div>
   {% endif %}
 
-  <!-- NUOVI INCANTESIMI STRUTTURATI -->
+  <!-- INCANTESIMI STRUTTURATI -->
   {% if incantesimi_lista %}
     <h3 style="margin-top: 1.5rem;">Magia e Incantesimi</h3>
     <ul style="list-style-type: none; padding-left: 0; margin-bottom: 1.5rem;">
       {% for inc in incantesimi_lista %}
         <li style="margin-bottom: 0.8rem; line-height: 1.6;">
-          <strong style="color: #e2cc98;">{{ inc.livello }}:</strong> {{ inc.lista }}
+          <strong style="color: #8b5a2b;">{{ inc.livello }}:</strong> {{ inc.lista }}
         </li>
       {% endfor %}
     </ul>
-  {% endif %}
-
-  <!-- VECCHI INCANTESIMI (Fallback) -->
-  {% if incantesimi and not incantesimi_lista %}
-    <h3 style="margin-top: 1.5rem;">Magia e Incantesimi</h3>
-    <div style="white-space: pre-wrap; line-height: 1.6; margin-bottom: 1rem;">{{ incantesimi | safe }}</div>
   {% endif %}
 
   <!-- STORIA / BACKGROUND ESTESO (Il testo libero in fondo al CMS) -->
