@@ -6,22 +6,25 @@
 	<body>
 
 		<header class="site-header">
-			<div class="testata-sito" style="display: flex; justify-content: center; align-items: center; width: 100%; box-sizing: border-box; padding: 1.5rem 5%;">
+			<div class="testata-sito" style="display: flex; justify-content: center; align-items: center; width: 100%; box-sizing: border-box; padding: 1.5rem 5%; position: relative; overflow: hidden;">
     
-    			<!-- Fiamma di Sinistra -->
-    			<img src="/static/img/wildfires.png" alt="" style="height: 250px; flex-grow: 1; max-width: 250px; object-fit: cover; object-position: right; margin-right: 1rem; opacity: 0.7;">
+    			<!-- Contenitore invisibile Fiamma Sinistra (altezza fissa 50px) -->
+    			<div style="flex-grow: 1; height: 50px; position: relative; margin-right: 1rem;">
+        			<img src="/static/img/wildfires.png" alt="" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 250px; height: 250px; object-fit: contain; opacity: 0.7;">
+    			</div>
     
     			<!-- Drago di Sinistra -->
-    			<img src="/static/img/drago.png" alt="" style="height: 50px; opacity: 0.8;">
+    			<img src="/static/img/drago.png" alt="" style="height: 50px; opacity: 0.8; position: relative; z-index: 2;">
     
-    			<h1 style="margin: 0 1.5rem; white-space: nowrap;">Cronache di Krynn</h1>
+    			<h1 style="margin: 0 1.5rem; white-space: nowrap; position: relative; z-index: 2;">Cronache di Krynn</h1>
     
     			<!-- Drago di Destra (Specchiato) -->
-    			<img src="/static/img/drago.png" alt="" style="height: 50px; opacity: 0.8; transform: scaleX(-1);">
+    			<img src="/static/img/drago.png" alt="" style="height: 50px; opacity: 0.8; transform: scaleX(-1); position: relative; z-index: 2;">
     
-    			<!-- Fiamma di Destra (Specchiata) -->
-    			<!-- Se la scia di base punta verso sinistra, lo scaleX(-1) la ribalterà per farla puntare verso destra -->
-    			<img src="/static/img/wildfires.png" alt="" style="height: 250px; flex-grow: 1; max-width: 250px; object-fit: cover; object-position: left; margin-left: 1rem; opacity: 0.7; transform: scaleX(-1);">
+    			<!-- Contenitore invisibile Fiamma Destra -->
+    			<div style="flex-grow: 1; height: 50px; position: relative; margin-left: 1rem;">
+        			<img src="/static/img/wildfires.png" alt="" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%) scaleX(-1); width: 250px; height: 250px; object-fit: contain; opacity: 0.7;">
+    			</div>
 
 			</div>
  			 <nav class="nav-dragonlance">
