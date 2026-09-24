@@ -67,17 +67,23 @@ collections:
           - { label: "Carnagione", name: "carnagione", widget: "string", required: false }
           - { label: "Capelli", name: "capelli", widget: "string", required: false }
 
-      - label: "Caratteristiche (Punteggi)"
+      - label: "Caratteristiche e Modificatori"
         name: "caratteristiche"
         widget: "object"
         collapsed: true
         fields:
-          - { label: "Forza", name: "forza", widget: "string", required: false }
-          - { label: "Destrezza", name: "destrezza", widget: "string", required: false }
-          - { label: "Costituzione", name: "costituzione", widget: "string", required: false }
-          - { label: "Intelligenza", name: "intelligenza", widget: "string", required: false }
-          - { label: "Saggezza", name: "saggezza", widget: "string", required: false }
-          - { label: "Carisma", name: "carisma", widget: "string", required: false }
+          - { label: "Punteggio Forza", name: "forza", widget: "string", required: false }
+          - { label: "Modificatore Forza (es. +3)", name: "mod_forza", widget: "string", required: false }
+          - { label: "Punteggio Destrezza", name: "destrezza", widget: "string", required: false }
+          - { label: "Modificatore Destrezza (es. +2)", name: "mod_destrezza", widget: "string", required: false }
+          - { label: "Punteggio Costituzione", name: "costituzione", widget: "string", required: false }
+          - { label: "Modificatore Costituzione", name: "mod_costituzione", widget: "string", required: false }
+          - { label: "Punteggio Intelligenza", name: "intelligenza", widget: "string", required: false }
+          - { label: "Modificatore Intelligenza", name: "mod_intelligenza", widget: "string", required: false }
+          - { label: "Punteggio Saggezza", name: "saggezza", widget: "string", required: false }
+          - { label: "Modificatore Saggezza", name: "mod_saggezza", widget: "string", required: false }
+          - { label: "Punteggio Carisma", name: "carisma", widget: "string", required: false }
+          - { label: "Modificatore Carisma", name: "mod_carisma", widget: "string", required: false }
 
       - label: "Statistiche di Combattimento"
         name: "combattimento"
@@ -92,6 +98,26 @@ collections:
           - { label: "Bonus di Competenza", name: "competenza", widget: "string", required: false }
           - { label: "Percezione Passiva", name: "percezione_passiva", widget: "string", required: false }
 
+      - label: "Abilità con Competenza (Lista Strutturata)"
+        name: "abilita_lista"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: '{{fields.nome}}: {{fields.valore}}'
+        fields:
+          - { label: "Nome Abilità (es. Furtività)", name: "nome", widget: "string" }
+          - { label: "Bonus Totale (es. +5)", name: "valore", widget: "string" }
+
+      - label: "Talenti (Feats)"
+        name: "talenti"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: '{{fields.nome}}'
+        fields:
+          - { label: "Nome Talento", name: "nome", widget: "string" }
+          - { label: "Descrizione", name: "descrizione", widget: "text", required: false }
+      
       - label: "Abilità, Tiri Salvezza e Competenze"
         name: "competenze"
         widget: "markdown"
@@ -118,6 +144,16 @@ collections:
           - { label: "Legami", name: "legami", widget: "text", required: false }
           - { label: "Difetti", name: "difetti", widget: "text", required: false }
 
+      - label: "Privilegi di Classe (Lista Strutturata)"
+        name: "privilegi_lista"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: '{{fields.nome}}'
+        fields:
+          - { label: "Nome Privilegio", name: "nome", widget: "string" }
+          - { label: "Descrizione", name: "descrizione", widget: "text", required: false }
+      
       - label: "Privilegi di Classe e Razziali"
         name: "privilegi"
         widget: "markdown"
