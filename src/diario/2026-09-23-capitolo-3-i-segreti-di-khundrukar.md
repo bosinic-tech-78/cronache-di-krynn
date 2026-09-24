@@ -4,11 +4,11 @@ date: 2026-09-23T19:22:00
 image: /static/img/0-00 Cover Art 1.jpg
 ---
 
-**MISHAM 25 - BAKUKAL 26, FLEURGREEN**
+##### **MISHAM 25 - BAKUKAL 26, FLEURGREEN**
 
 Gli avventurieri partono per Khundrukar, raggiungendo senza difficoltà la zona dove dovrebbe trovarsi l’ingresso della città.
 
-**BRANCHA 27, FLEURGREEN**
+##### **BRANCHA 27, FLEURGREEN**
 
 In tarda mattinata, gli avventurieri notano del fumo vicino alla strada che stanno percorrendo e che sale verso l’ingresso della città. Investigando, scoprono un possibile accesso al sottosuolo tramite un camino. 
 
@@ -16,7 +16,7 @@ Si calano e si ritrovano in una “cucina”; da qui, esplorando, trovano l’ac
 
 Dopo un pomeriggio di esplorazioni e combattimenti, gli avventurieri si riparano in una zona protetta dai mostri dove si trovano molti sarcofagi nanici.
 
-**LINARAS 28, FLEURGREEN**
+##### **LINARAS 28, FLEURGREEN**
 
 Gli avventurieri proseguono nell’esplorazione e si ritrovano davanti a una porta nanica chiusa; sembra che sia necessaria una chiave particolare per aprirla, quindi riprendono l’esplorazione, nella speranza di recuperare la chiave.
 
@@ -28,7 +28,7 @@ Dopo averli sconfitti, gli avventurieri si curano in attesa di finire l’esplor
 
 Nel nuovo livello trovano dei magazzini abbandonati, affrontano un feroce roper e trovano la chiave che cercavano addosso a un cadavere nanico. Decidono di riposare in attesa di scoprire cosa si cela al di là della porta chiusa.
 
-**PALAST 01, HOLMSWELT**
+##### **PALAST 01, HOLMSWELT**
 
 Prima di aprire la porta, gli avventurieri esplorano la piccola caverna piena di funghi velenosi; riescono a eliminare i funghi e recuperano una spada forgiata dal clan di Durgeddin e un elmo di pregevole fattura. 
 
@@ -52,7 +52,7 @@ Proseguendo nell’esplorazione arrivano in una camera dove dimora Nimira, una n
 
 Scendono usando una scala di corde e si ritrovano a fianco di un piccolo lago; nel terreno accano al lago individuano le orme di un rettile a quattro zampe dotato di coda. Preoccupati di quello che potranno trovare si riposano.
 
-**MAJETAG 02, HOLMSWELT**
+##### **MAJETAG 02, HOLMSWELT**
 
 Gli avventurieri esplorano il livello e notano che non sono presenti animali o mostri. Individuano due ponti costruiti dai nani; uno di questi sembra danneggiato da un liquido e quindi lo attraversano con particolare calma evitando di farlo crollare. Proseguendo nell’esplorazione si trovano davanti a un enorme lago sotterraneo; qui vengono attaccati da una creatura che si nasconde nelle profondità del lago. 
 
