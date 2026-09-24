@@ -3,7 +3,7 @@ title: Faruk
 tipo: PG
 image: ''
 info_base:
-  nome_giocatore: Menni
+  nome_giocatore: Menny
   classi:
     - nome: Paladino
       livello: 10
