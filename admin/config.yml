@@ -108,6 +108,16 @@ collections:
           - { label: "Nome Abilità (es. Furtività)", name: "nome", widget: "string" }
           - { label: "Bonus Totale (es. +5)", name: "valore", widget: "string" }
 
+      - label: "Altre Competenze e Lingue"
+        name: "competenze_lista"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: '{{fields.nome}}'
+        fields:
+          - { label: "Nome (es. Elfico, Strumenti da Scasso)", name: "nome", widget: "string" }
+          - { label: "Dettagli (Opzionale)", name: "dettagli", widget: "string", required: false }
+
       - label: "Talenti (Feats)"
         name: "talenti"
         widget: "list"
@@ -118,12 +128,6 @@ collections:
           - { label: "Nome Talento", name: "nome", widget: "string" }
           - { label: "Descrizione", name: "descrizione", widget: "text", required: false }
       
-      - label: "Abilità, Tiri Salvezza e Competenze"
-        name: "competenze"
-        widget: "markdown"
-        required: false
-        hint: "Elenca qui in modo libero le abilità, le lingue parlate e gli strumenti."
-
       - label: "Attacchi e Armi"
         name: "armi"
         widget: "list"
@@ -144,7 +148,7 @@ collections:
           - { label: "Legami", name: "legami", widget: "text", required: false }
           - { label: "Difetti", name: "difetti", widget: "text", required: false }
 
-      - label: "Privilegi di Classe (Lista Strutturata)"
+      - label: "Privilegi di Classe e Razziali (Lista)"
         name: "privilegi_lista"
         widget: "list"
         collapsed: true
@@ -154,16 +158,16 @@ collections:
           - { label: "Nome Privilegio", name: "nome", widget: "string" }
           - { label: "Descrizione", name: "descrizione", widget: "text", required: false }
       
-      - label: "Privilegi di Classe e Razziali"
-        name: "privilegi"
-        widget: "markdown"
+      - label: "Equipaggiamento e Monete (Lista)"
+        name: "equipaggiamento_lista"
+        widget: "list"
+        collapsed: true
         required: false
-
-      - label: "Equipaggiamento e Monete"
-        name: "equipaggiamento"
-        widget: "markdown"
-        required: false
-
+        summary: '{{fields.nome}} (x{{fields.quantita}})'
+        fields:
+          - { label: "Nome Oggetto o Monete", name: "nome", widget: "string" }
+          - { label: "Quantità", name: "quantita", widget: "number", value_type: "int", default: 1, required: false }
+          - { label: "Dettagli / Peso", name: "dettagli", widget: "string", required: false }
 
       - label: "Incantesimi (Lista Strutturata)"
         name: "incantesimi_lista"
