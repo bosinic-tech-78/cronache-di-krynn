@@ -52,7 +52,27 @@ personalita:
   difetti: ''
 privilegi_lista: []
 equipaggiamento_lista: []
-incantesimi_lista: []
+incantesimi_lista:
+  - livello: 1° Livello
+    lista: |-
+      Anatema
+      Benedizione
+      Cura ferite
+      Duello obbligatorio
+      Marchio del cacciatore
+      Punizione tornante
+  - livello: 2° Livello
+    lista: |-
+      Blocca persone
+      Passo velato
+      Preghiera di guarigione
+      Ristorare inferiore
+      Zona di verità
+  - livello: 3° Livello
+    lista: |-
+      Aura di vitalità
+      Protezione dell'energia
+      Velocità
 competenze: ''
 equipaggiamento: ''
 incantesimi: ''
