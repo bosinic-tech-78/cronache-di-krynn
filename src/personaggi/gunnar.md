@@ -22,25 +22,25 @@ aspetto:
   capelli: ''
 caratteristiche:
   forza: '18'
-  mod_forza: ''
+  mod_forza: '+4'
   destrezza: '12'
-  mod_destrezza: ''
+  mod_destrezza: '+1'
   costituzione: '14'
-  mod_costituzione: ''
+  mod_costituzione: '+2'
   intelligenza: '10'
-  mod_intelligenza: ''
+  mod_intelligenza: '0'
   saggezza: '13'
-  mod_saggezza: ''
+  mod_saggezza: '+1'
   carisma: '9'
-  mod_carisma: ''
+  mod_carisma: '-1'
 combattimento:
-  ca: null
-  iniziativa: ''
-  velocita: ''
-  pf_max: null
-  dadi_vita: ''
-  competenza: ''
-  percezione_passiva: ''
+  ca: 18
+  iniziativa: '+1'
+  velocita: 9m
+  pf_max: 98
+  dadi_vita: 10d10
+  competenza: '+4'
+  percezione_passiva: '15'
 abilita_lista: []
 competenze_lista: []
 talenti: []
