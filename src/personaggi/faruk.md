@@ -35,7 +35,7 @@ caratteristiche:
   mod_carisma: '3'
 combattimento:
   ca: 19
-  iniziativa: '1'
+  iniziativa: '+1'
   velocita: 12m
   pf_max: 80
   dadi_vita: 10d10
