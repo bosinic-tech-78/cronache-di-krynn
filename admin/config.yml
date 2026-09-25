@@ -229,6 +229,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Nome Creatura/PNG", name: "title", widget: "string" }
+      - { label: "Immagine Ritratto (Opzionale)", name: "image", widget: "image", required: false }
       - { label: "Taglia, Tipo e Allineamento", name: "tipo_allineamento", widget: "string", hint: "Es: Medium Elemental, Neutral" }
       - { label: "Classe Armatura (CA)", name: "ca", widget: "string", hint: "Es: 16" }
       - { label: "Punti Ferita (PF)", name: "hp", widget: "string", hint: "Es: 66 (12d8 + 12)" }
@@ -277,6 +278,16 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Nome Luogo", name: "title", widget: "string" }
+      - { label: "Immagine Ambientale (Opzionale)", name: "image", widget: "image", required: false }
+      - label: "Mappe e Planimetrie"
+        name: "mappe_lista"
+        widget: "list"
+        collapsed: true
+        required: false
+        summary: 'Mappa: {{fields.nome}}'
+        fields:
+          - { label: "Nome Mappa (es. Livello 1, Stanza del Boss)", name: "nome", widget: "string" }
+          - { label: "File Immagine", name: "file_mappa", widget: "image" }
       - { label: "Descrizione per i Giocatori (Testo da leggere)", name: "box_text", widget: "text", required: false }
       - { label: "Trappole, Segreti e Classi Difficoltà", name: "body", widget: "markdown" }
 
@@ -287,6 +298,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Nome Oggetto", name: "title", widget: "string" }
+      - { label: "Immagine Oggetto (Opzionale)", name: "image", widget: "image", required: false }
       - { label: "Rarità e Tipo", name: "rarita", widget: "string" }
       - { label: "Richiede Sintonizzazione?", name: "sintonizzazione", widget: "boolean", default: false }
       - { label: "Statistiche ed Effetti Magici", name: "body", widget: "markdown" }
