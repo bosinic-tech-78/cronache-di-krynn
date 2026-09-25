@@ -1,5 +1,6 @@
 ---
-title: Sir Kaelen
+title: Sir Kaelen, Capitana della Spada
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
