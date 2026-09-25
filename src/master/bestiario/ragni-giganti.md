@@ -1,5 +1,6 @@
 ---
-title: Ragni Giganti
+title: Ragno Gigante
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
