@@ -1,6 +1,6 @@
 ---
 title: Fizban
-image: ''
+image: /static/img/fizban.webp
 tipo_allineamento: a
 ca: a
 hp: a
