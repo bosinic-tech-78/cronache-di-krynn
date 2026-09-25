@@ -9,8 +9,13 @@ incastri:
     - Abishai Blu
     - Giovane Drago Blu
     - Cavalcaviverne
-  luoghi_rel: []
-  tesori_rel: []
+    - Kitiara Uth Matar
+    - Generale Vrak
+  luoghi_rel:
+    - Kalaman
+  tesori_rel:
+    - Cintura della Forza dei Giganti del Fuoco
+    - Spada Lunga +2
   calendario_rel: []
 ---
 
