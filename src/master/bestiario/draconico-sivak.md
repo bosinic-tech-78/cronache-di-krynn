@@ -1,6 +1,6 @@
 ---
 title: Draconico Sivak
-image: ''
+image: /static/img/Draconian - Sivak.png
 tipo_allineamento: a
 ca: a
 hp: a
