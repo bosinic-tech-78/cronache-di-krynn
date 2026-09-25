@@ -220,6 +220,7 @@ collections:
           - { label: "Mostri o PNG Coinvolti", name: "png_rel", widget: "relation", collection: "master_png_mostri", search_fields: ["title"], value_field: "title", multiple: true, required: false }
           - { label: "Luoghi da Esplorare", name: "luoghi_rel", widget: "relation", collection: "master_luoghi", search_fields: ["title"], value_field: "title", multiple: true, required: false }
           - { label: "Tesori Presenti", name: "tesori_rel", widget: "relation", collection: "master_tesori", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+          - { label: "Date ed Eventi Temporali", name: "calendario_rel", widget: "relation", collection: "master_calendario", search_fields: ["title", "data_krynn"], value_field: "title", multiple: true, required: false }
       - { label: "Appunti Narrativi", name: "body", widget: "markdown" }
 
   - name: "master_png_mostri"
@@ -319,7 +320,8 @@ collections:
         widget: "object"
         collapsed: true
         fields:
+          - { label: "Capitolo della Trama", name: "trama_rel", widget: "relation", collection: "master_trama", search_fields: ["title"], value_field: "title", required: false }
           - { label: "Luogo", name: "luogo_rel", widget: "relation", collection: "master_luoghi", search_fields: ["title"], value_field: "title", required: false }
           - { label: "PNG Coinvolti", name: "png_rel", widget: "relation", collection: "master_png_mostri", search_fields: ["title"], value_field: "title", multiple: true, required: false }
-          
+                    
       - { label: "Descrizione e Conseguenze", name: "body", widget: "markdown" }
