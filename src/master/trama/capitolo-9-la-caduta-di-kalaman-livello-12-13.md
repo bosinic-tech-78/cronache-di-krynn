@@ -2,9 +2,16 @@
 title: Capitolo 9 - La Caduta di Kalaman (Livello 12 -> 13)
 stato: Da Giocare
 incastri:
-  png_rel: []
+  png_rel:
+    - Draconici Kapak
+    - Hobgoblin
+    - Ogre
+    - Abishai Blu
+    - Giovane Drago Blu
+    - Cavalcaviverne
   luoghi_rel: []
   tesori_rel: []
+  calendario_rel: []
 ---
 
 Kalaman ha una settimana per prepararsi. I PG fortificano le mura, addestrano la milizia e posizionano l'artiglieria. Poi, l'Armata del Drago Blu, guidata da Kitiara Uth Matar (che sfreccia nei cieli sul suo drago blu Skie), attacca.
