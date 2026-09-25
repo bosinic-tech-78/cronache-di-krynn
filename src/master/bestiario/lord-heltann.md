@@ -1,6 +1,6 @@
 ---
 title: Lord Heltann di Auchuran, Maresciallo della Rosa
-image: ''
+image: /static/img/Lord_Heltann.jpg
 tipo_allineamento: a
 ca: a
 hp: a
