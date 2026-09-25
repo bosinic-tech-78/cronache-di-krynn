@@ -1,6 +1,6 @@
 ---
 title: Draconico Kapak
-image: ''
+image: /static/img/Draconian - Kapak.png
 tipo_allineamento: a
 ca: a
 hp: a
