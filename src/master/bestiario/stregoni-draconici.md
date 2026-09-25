@@ -1,5 +1,6 @@
 ---
-title: Stregoni Draconici
+title: Stregone Draconico
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
