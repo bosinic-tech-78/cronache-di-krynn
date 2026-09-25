@@ -1,5 +1,6 @@
 ---
-title: Draconici Baaz
+title: Draconico Baaz
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
