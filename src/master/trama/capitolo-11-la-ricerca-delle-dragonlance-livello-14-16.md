@@ -3,8 +3,14 @@ title: Capitolo 11 - La Ricerca delle Dragonlance (Livello 14 -> 16)
 stato: Da Giocare
 incastri:
   png_rel: []
-  luoghi_rel: []
-  tesori_rel: []
+  luoghi_rel:
+    - La Volta del Destino (The Doomvault)
+    - La Tomba del Re-Sacerdote Eretico
+  tesori_rel:
+    - Dragonlance
+    - Bastone del Potere
+    - Talismano del Puro Bene
+  calendario_rel: []
 ---
 
 Ad Astinus e al bibliotecario Bertrem, presso la Grande Biblioteca di Palanthas, viene commissionata un'indagine storica profonda. Trovano riferimenti a due antichi santuari pre-Cataclisma dove furono nascoste, separate per sicurezza, due delle prime vere Dragonlance.
