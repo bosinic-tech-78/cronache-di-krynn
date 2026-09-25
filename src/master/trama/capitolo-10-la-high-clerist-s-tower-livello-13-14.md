@@ -11,7 +11,8 @@ incastri:
     - High Clerist's Tower
   tesori_rel:
     - Stivali Elfici
-  calendario_rel: []
+  calendario_rel:
+    - Battle of the Reaper
 ---
 
 La torre è una fortezza mistica a guardia del passo verso Palanthas. **Le Aree Principali:**
