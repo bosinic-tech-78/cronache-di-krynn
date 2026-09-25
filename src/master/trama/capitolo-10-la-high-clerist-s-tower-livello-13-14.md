@@ -2,9 +2,16 @@
 title: Capitolo 10 - La High Clerist's Tower (Livello 13 -> 14)
 stato: Da Giocare
 incastri:
-  png_rel: []
-  luoghi_rel: []
-  tesori_rel: []
+  png_rel:
+    - Kitiara Uth Matar
+    - Draconico Sivak
+    - Cavaliere della Morte
+    - Drago Blu
+  luoghi_rel:
+    - High Clerist's Tower
+  tesori_rel:
+    - Stivali Elfici
+  calendario_rel: []
 ---
 
 La torre è una fortezza mistica a guardia del passo verso Palanthas. **Le Aree Principali:**
