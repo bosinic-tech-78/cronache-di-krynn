@@ -2,7 +2,8 @@
 title: Capitolo 8 - Maelgoth e il Drago Malvagio (Livello 11 -> 12)
 stato: Da Giocare
 incastri:
-  png_rel: []
+  png_rel:
+    - Lord Heltann
   luoghi_rel: []
   tesori_rel: []
 ---
