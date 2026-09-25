@@ -1,8 +1,8 @@
 ---
 title: Cintura della Forza dei Giganti del Fuoco
-image: ''
-rarita: a
-sintonizzazione: false
+image: /static/img/cintura-della-forza-dei-giganti.jpg.webp
+rarita: Molto Raro - Oggetto meraviglioso
+sintonizzazione: true
 ---
 
-a
+Mentre indossi questa cinta, il tuo punteggio di Forza diventa 25. Se il tuo punteggio di Forza è già pari o superiore al punteggio della cinta, l’oggetto non ha effetto su di te.
