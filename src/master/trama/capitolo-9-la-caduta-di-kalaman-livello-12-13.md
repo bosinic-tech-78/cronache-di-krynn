@@ -16,7 +16,8 @@ incastri:
   tesori_rel:
     - Cintura della Forza dei Giganti del Fuoco
     - Spada Lunga +2
-  calendario_rel: []
+  calendario_rel:
+    - Caduta di Kalaman
 ---
 
 Kalaman ha una settimana per prepararsi. I PG fortificano le mura, addestrano la milizia e posizionano l'artiglieria. Poi, l'Armata del Drago Blu, guidata da Kitiara Uth Matar (che sfreccia nei cieli sul suo drago blu Skie), attacca.
