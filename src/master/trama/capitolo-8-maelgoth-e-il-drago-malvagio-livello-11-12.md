@@ -4,6 +4,10 @@ stato: Da Giocare
 incastri:
   png_rel:
     - Lord Heltann
+    - Sir Kaelen
+    - Verdeartiglio (Verdantclaw)
+    - Rampicanti Assassini
+    - Draconici Baaz
   luoghi_rel: []
   tesori_rel: []
 ---
