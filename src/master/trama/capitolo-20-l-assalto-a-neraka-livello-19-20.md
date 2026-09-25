@@ -2,9 +2,15 @@
 title: Capitolo 14 - L'Assalto a Neraka (Livello 19 -> 20)
 stato: Da Giocare
 incastri:
-  png_rel: []
-  luoghi_rel: []
-  tesori_rel: []
+  png_rel:
+    - Skalatar, L'Araldo a Cinque Teste
+    - Cavaliere Oscuro Maledetto
+  luoghi_rel:
+    - Neraka
+  tesori_rel:
+    - Spada Vendicatrice Sacra
+    - Bastone dei Magi
+  calendario_rel: []
 ---
 
 Neraka è il cuore del male, una gigantesca fortezza costruita attorno alla Pietra della Fondazione, circondata da montagne aspre. Un luogo avvolto perennemente da nubi tempestose.
