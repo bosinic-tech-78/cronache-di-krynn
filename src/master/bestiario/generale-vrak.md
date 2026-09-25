@@ -1,6 +1,6 @@
 ---
 title: Generale Vrak
-image: ''
+image: /static/img/art-a-blue-dragonborn-with-a-spark-v0-ydhv0n7xv4051.webp
 tipo_allineamento: a
 ca: a
 hp: a
