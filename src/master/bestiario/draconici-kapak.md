@@ -1,5 +1,5 @@
 ---
-title: Draconici Kapak
+title: Draconico Kapak
 image: ''
 tipo_allineamento: a
 ca: a
