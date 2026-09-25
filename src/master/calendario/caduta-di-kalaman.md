@@ -1,6 +1,6 @@
 ---
 title: Caduta di Kalaman
-data_krynn: Ottobre 351
+data_krynn: Gildember (Ottobre) 351
 anno_ac: 351
 tipo: Evento Canonico (Lore)
 collegamenti:
