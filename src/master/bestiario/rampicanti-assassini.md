@@ -1,5 +1,6 @@
 ---
-title: Rampicanti Assassini
+title: Rampicante Assassino
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
