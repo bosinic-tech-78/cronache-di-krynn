@@ -204,3 +204,89 @@ collections:
           - { label: "Posizione Y (Verticale: da 0 a 100)", name: "y", widget: "number", value_type: "int" }
           
       - { label: "Descrizione o Storia", name: "body", widget: "markdown", required: false }
+  - name: "master_trama"
+    label: "🔒 Trama e Sessioni Segrete"
+    folder: "src/master/trama"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titolo o Capitolo", name: "title", widget: "string" }
+      - { label: "Stato", name: "stato", widget: "select", options: ["Da Giocare", "In Corso", "Completata"] }
+      - label: "Incastri di Gioco (Relazioni)"
+        name: "incastri"
+        widget: "object"
+        collapsed: false
+        fields:
+          - { label: "Mostri o PNG Coinvolti", name: "png_rel", widget: "relation", collection: "master_png_mostri", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+          - { label: "Luoghi da Esplorare", name: "luoghi_rel", widget: "relation", collection: "master_luoghi", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+          - { label: "Tesori Presenti", name: "tesori_rel", widget: "relation", collection: "master_tesori", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+      - { label: "Appunti Narrativi", name: "body", widget: "markdown" }
+
+  - name: "master_png_mostri"
+    label: "🔒 Bestiario & PNG Segreti"
+    folder: "src/master/bestiario"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome Creatura/PNG", name: "title", widget: "string" }
+      - { label: "Taglia, Tipo e Allineamento", name: "tipo_allineamento", widget: "string", hint: "Es: Medium Elemental, Neutral" }
+      - { label: "Classe Armatura (CA)", name: "ca", widget: "string", hint: "Es: 16" }
+      - { label: "Punti Ferita (PF)", name: "hp", widget: "string", hint: "Es: 66 (12d8 + 12)" }
+      - { label: "Velocità", name: "velocita", widget: "string", hint: "Es: 20 ft., Fly 50 ft." }
+      - { label: "Iniziativa", name: "iniziativa", widget: "string", hint: "Es: +3 (13)" }
+      
+      - label: "Caratteristiche e Tiri Salvezza"
+        name: "stats"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "FOR (Punteggio, Mod, Salvezza)", name: "forza", widget: "string" }
+          - { label: "DES (Punteggio, Mod, Salvezza)", name: "destrezza", widget: "string" }
+          - { label: "COS (Punteggio, Mod, Salvezza)", name: "costituzione", widget: "string" }
+          - { label: "INT (Punteggio, Mod, Salvezza)", name: "intelligenza", widget: "string" }
+          - { label: "SAG (Punteggio, Mod, Salvezza)", name: "saggezza", widget: "string" }
+          - { label: "CAR (Punteggio, Mod, Salvezza)", name: "carisma", widget: "string" }
+
+      - label: "Competenze, Sensi e CR"
+        name: "competenze_base"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Abilità (Skills)", name: "skills", widget: "string", required: false, hint: "Es: Arcana +3, Nature +5, Perception +7" }
+          - { label: "Sensi", name: "sensi", widget: "string", required: false, hint: "Es: Passive Perception 17" }
+          - { label: "Lingue", name: "lingue", widget: "string", required: false, hint: "Es: Aarakocra, Primordial (Auran)" }
+          - { label: "Grado di Sfida (CR)", name: "cr", widget: "string", required: false, hint: "Es: 4 (XP 1100; PB +2)" }
+
+      - label: "Tratti, Azioni e Reazioni"
+        name: "azioni_lista"
+        widget: "list"
+        collapsed: false
+        required: false
+        summary: '{{fields.tipo}}: {{fields.nome}}'
+        fields:
+          - { label: "Categoria", name: "tipo", widget: "select", options: ["Azione", "Azione Bonus", "Reazione", "Tratto", "Azione Leggendaria"] }
+          - { label: "Nome Azione/Tratto", name: "nome", widget: "string" }
+          - { label: "Descrizione Completa", name: "descrizione", widget: "text" }
+
+      - { label: "Habitat, Tattiche e Note Segrete", name: "body", widget: "markdown", required: false }
+
+  - name: "master_luoghi"
+    label: "🔒 Luoghi e Dungeon"
+    folder: "src/master/luoghi"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome Luogo", name: "title", widget: "string" }
+      - { label: "Descrizione per i Giocatori (Testo da leggere)", name: "box_text", widget: "text", required: false }
+      - { label: "Trappole, Segreti e Classi Difficoltà", name: "body", widget: "markdown" }
+
+  - name: "master_tesori"
+    label: "🔒 Tesori e Loot"
+    folder: "src/master/tesori"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Nome Oggetto", name: "title", widget: "string" }
+      - { label: "Rarità e Tipo", name: "rarita", widget: "string" }
+      - { label: "Richiede Sintonizzazione?", name: "sintonizzazione", widget: "boolean", default: false }
+      - { label: "Statistiche ed Effetti Magici", name: "body", widget: "markdown" }
