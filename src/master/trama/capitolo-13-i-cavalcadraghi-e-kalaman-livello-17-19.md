@@ -2,9 +2,14 @@
 title: Capitolo 13 - I Cavalcadraghi e Kalaman (Livello 17 -> 19)
 stato: Da Giocare
 incastri:
-  png_rel: []
-  luoghi_rel: []
+  png_rel:
+    - Fizban
+    - Mago dalle Vesti Nere (Arcimago)
+    - Antico Drago Blu
+  luoghi_rel:
+    - Kalaman
   tesori_rel: []
+  calendario_rel: []
 ---
 
 I Draghi Buoni entrano in guerra. I PG stringono legami con draghi di bronzo, argento o oro. **Bonus Cavalcadraghi:**
