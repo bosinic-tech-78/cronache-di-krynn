@@ -11,11 +11,12 @@ incastri:
     - Ragni Giganti
     - Stregoni Draconici
   luoghi_rel:
-    - Maelgoth
     - Le Rovine Soffocanti di Vingaard
+    - Maelgoth
   tesori_rel:
     - Mantello della Resistenza agli Incantesimi
     - Verga del Patto del Custode
+  calendario_rel: []
 ---
 
 **L'influenza su Lord Heltann:** Lord Heltann è manipolato tramite un antico medaglione corrotto donatogli da un emissario sotto mentite spoglie. Sir Kaelen sospetta la verità e indirizza i PG verso il covo di chi ha corrotto il Lord: un drago verde adulto di nome **Verdeartiglio (Verdantclaw)**, alleato della Regina dei Draghi, che tesse le trame nell'ombra.
