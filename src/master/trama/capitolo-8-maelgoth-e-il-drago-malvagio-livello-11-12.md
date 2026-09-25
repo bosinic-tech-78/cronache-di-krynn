@@ -10,7 +10,9 @@ incastri:
     - Draconici Baaz
     - Ragni Giganti
     - Stregoni Draconici
-  luoghi_rel: []
+  luoghi_rel:
+    - Maelgoth
+    - Le Rovine Soffocanti di Vingaard
   tesori_rel: []
 ---
 
