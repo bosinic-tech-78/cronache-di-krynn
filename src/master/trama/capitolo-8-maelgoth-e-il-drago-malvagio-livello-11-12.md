@@ -8,6 +8,8 @@ incastri:
     - Verdeartiglio (Verdantclaw)
     - Rampicanti Assassini
     - Draconici Baaz
+    - Ragni Giganti
+    - Stregoni Draconici
   luoghi_rel: []
   tesori_rel: []
 ---
