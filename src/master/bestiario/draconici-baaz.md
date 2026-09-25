@@ -1,6 +1,6 @@
 ---
 title: Draconico Baaz
-image: ''
+image: /static/img/Draconian - Baaz.png
 tipo_allineamento: a
 ca: a
 hp: a
