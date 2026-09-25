@@ -2,9 +2,15 @@
 title: Capitolo 12 - Il Tradimento del Giuramento (Livello 16 -> 17)
 stato: Da Giocare
 incastri:
-  png_rel: []
-  luoghi_rel: []
-  tesori_rel: []
+  png_rel:
+    - D'argent (Silvara)
+    - Cymbal
+  luoghi_rel:
+    - Campo di Prigionia di Sanction
+  tesori_rel:
+    - Anello della Rigenerazione
+    - Armatura a Piastre della Resistenza al Fuoco
+  calendario_rel: []
 ---
 
 D'argent (Silvara) avvicina i PG. Il Drago Metallico Cymbal è scomparso. Il luogo è il **Campo di Prigionia di Sanction**, la città vulcanica base dell'Armata del Drago.
