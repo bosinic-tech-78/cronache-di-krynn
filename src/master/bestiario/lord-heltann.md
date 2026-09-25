@@ -1,5 +1,6 @@
 ---
-title: Lord Heltann
+title: Lord Heltann di Auchuran, Maresciallo della Rosa
+image: ''
 tipo_allineamento: a
 ca: a
 hp: a
