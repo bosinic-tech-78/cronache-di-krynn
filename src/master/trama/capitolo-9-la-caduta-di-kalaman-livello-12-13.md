@@ -3,7 +3,7 @@ title: Capitolo 9 - La Caduta di Kalaman (Livello 12 -> 13)
 stato: Da Giocare
 incastri:
   png_rel:
-    - Draconici Kapak
+    - Draconico Kapak
     - Hobgoblin
     - Ogre
     - Abishai Blu
