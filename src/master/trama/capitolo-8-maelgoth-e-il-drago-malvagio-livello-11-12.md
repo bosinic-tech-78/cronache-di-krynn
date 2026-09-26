@@ -3,13 +3,13 @@ title: Capitolo 8 - Maelgoth e il Drago Malvagio (Livello 11 -> 12)
 stato: Da Giocare
 incastri:
   png_rel:
-    - Lord Heltann
-    - Sir Kaelen
+    - Lord Heltann di Auchuran, Maresciallo della Rosa
+    - Sir Kaelen, Capitana della Spada
     - Verdeartiglio (Verdantclaw)
-    - Rampicanti Assassini
-    - Draconici Baaz
-    - Ragni Giganti
-    - Stregoni Draconici
+    - Rampicante Assassino
+    - Draconico Baaz
+    - Ragno Gigante
+    - Stregone Draconico
   luoghi_rel:
     - Le Rovine Soffocanti di Vingaard
     - Maelgoth
