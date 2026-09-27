@@ -31,7 +31,7 @@ incastri:
 - **`Ricompense della Tana:`**`  Il medaglione puro per curare Lord Heltann, 5.000 mo, un  `_`Mantello della Resistenza agli Incantesimi`_`  e una  `_`Verga del Patto del Custode`_`.`
 - **`Livellamento:`**` I PG raggiungono il livello 12. Lord Heltann è libero e mobilita i Cavalieri per Kalaman.`
 
-Certamente! L'avventura _A Copper for a Song_ si presta magnificamente a questa fase della campagna. Essendo un'avventura originariamente pensata per personaggi di livello 12, incentrata proprio su un drago di rame, su un enigma iniziale e sulla ricerca dei versi perduti di un canto magico capace di rigenerare una terra morente, possiamo fonderla con la nostra trama del drago verde (Verdeartiglio) in modo estremamente fluido.
+L'avventura _A Copper for a Song_ si presta magnificamente a questa fase della campagna. Essendo un'avventura originariamente pensata per personaggi di livello 12, incentrata proprio su un drago di rame, su un enigma iniziale e sulla ricerca dei versi perduti di un canto magico capace di rigenerare una terra morente, possiamo fonderla con la nostra trama del drago verde (Verdeartiglio) in modo estremamente fluido.
 
 Ecco come puoi adattare il modulo mantenendo intatta la trama per la tua campagna di Dragonlance:
 
