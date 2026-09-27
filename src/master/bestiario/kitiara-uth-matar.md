@@ -1,6 +1,6 @@
 ---
 title: Kitiara Uth Matar
-image: ''
+image: /static/img/Kitiara.png
 tipo_allineamento: a
 ca: a
 hp: a
