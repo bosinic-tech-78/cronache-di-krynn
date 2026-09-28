@@ -5,6 +5,7 @@ rarita: Raro
 tipo: Anello
 sintonizzazione: true
 pubblicato: true
+proprietario: Faruk
 ---
 
 Questo anello immagazzina gli incantesimi lanciati su di esso, conservandoli fino a che chi vi è in sintonia non ne faccia uso. L’anello può accumulare fino a 5 livelli di incantesimi alla volta.
