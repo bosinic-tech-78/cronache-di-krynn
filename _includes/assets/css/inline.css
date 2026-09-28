@@ -307,3 +307,69 @@ a:hover {
   /* Aggiunge un'ombra esterna più profonda e un'ombra interna per simulare l'usura */
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 40px rgba(139, 90, 43, 0.15);
 }
+
+
+.griglia-carte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.carta-dnd {
+  width: 350px;
+  height: 500px; /* Adatta queste misure a quelle dei tuoi PNG esportati */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: black;
+  font-family: 'Times New Roman', serif; /* Simile a quello usato nel PDF */
+}
+
+/* Assegnazione degli sfondi in base alla scelta nel CMS */
+.sfondo-blu { background-image: url('/img/sfondo-blu.png'); }
+.sfondo-verde { background-image: url('/img/sfondo-verde.png'); }
+.sfondo-rosso { background-image: url('/img/sfondo-rosso.png'); }
+
+.carta-titolo {
+  position: absolute;
+  top: 25px; /* Modifica per centrare il testo nella pergamena in alto */
+  width: 100%;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.carta-illustrazione {
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 180px;
+}
+
+.carta-illustrazione img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carta-tipo {
+  position: absolute;
+  top: 270px;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.carta-descrizione {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  right: 30px;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
