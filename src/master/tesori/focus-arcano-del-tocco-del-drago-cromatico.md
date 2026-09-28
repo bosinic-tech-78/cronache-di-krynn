@@ -1,7 +1,7 @@
 ---
 title: Focus Arcano del Tocco del Drago Cromatico
 image: /static/img/pasted-image-1790616261520.png
-rarita: Raro - Anello
+rarita: Raro
 tipo: Oggetto Meraviglioso
 sintonizzazione: true
 pubblicato: true
