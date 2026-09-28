@@ -1,15 +1,14 @@
 ---
 title: "I Tesori del Gruppo"
 permalink: "/tesori/"
-eleventyNavigation:
-  key: Tesori
-  order: 5
+layout: layouts/base.njk
+tags: nav
+navtitle: "Tesori"
 ---
 
 <div class="griglia-carte">
   {% for oggetto in collections.master_tesori %}
     
-    <!-- Controlla se l'oggetto è stato marcato come pubblico nel CMS -->
     {% if oggetto.data.pubblicato %}
     
     <div class="carta-dnd sfondo-{{ oggetto.data.colore }}">
@@ -32,3 +31,79 @@ eleventyNavigation:
   
   {% endfor %}
 </div>
+
+<style>
+/* STILE GRAFICO DELLE CARTE */
+.griglia-carte {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.carta-dnd {
+  width: 350px;
+  height: 500px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 15px; /* Ammorbidisce i bordi se lo sfondo non è perfettamente rettangolare */
+}
+
+/* Sostituisci questi percorsi se le tue immagini di sfondo si chiamano diversamente o sono in un'altra cartella */
+.sfondo-blu { background-image: url('/static/img/sfondo-blu.png'); }
+.sfondo-verde { background-image: url('/static/img/sfondo-verde.png'); }
+.sfondo-rosso { background-image: url('/static/img/sfondo-rosso.png'); }
+
+.carta-titolo {
+  position: absolute;
+  top: 35px; /* Distanza dall'alto: modificala per centrare il testo nella pergamena del template */
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+  margin: 0;
+}
+
+.carta-illustrazione {
+  position: absolute;
+  top: 90px; /* Distanza dall'alto dell'immagine dell'oggetto */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 150px;
+}
+
+.carta-illustrazione img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.carta-tipo {
+  position: absolute;
+  top: 250px; /* Posizione del sottotitolo (es. "Anello", "Spada Lunga") */
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.carta-descrizione {
+  position: absolute;
+  top: 280px; /* Inizio del testo delle regole */
+  left: 35px;
+  right: 35px;
+  bottom: 40px;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  overflow-y: auto; /* Aggiunge una barra di scorrimento se il testo è troppo lungo */
+}
+</style>
