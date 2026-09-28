@@ -5,6 +5,7 @@ rarita: Non comune
 tipo: Scudo
 sintonizzazione: false
 pubblicato: true
+proprietario: Olmus
 ---
 
 Questo è lo scudo utilizzato da Ispin, uno scudo +1 con una latifoglia e dipinto di un verde muschio.
