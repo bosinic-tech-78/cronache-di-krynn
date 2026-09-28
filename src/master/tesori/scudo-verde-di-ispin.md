@@ -3,7 +3,7 @@ title: Scudo Verde di Ispin
 image: /static/img/pasted-image-1790627589855.png
 rarita: Non comune
 tipo: Scudo
-sintonizzazione: true
+sintonizzazione: false
 pubblicato: true
 ---
 
