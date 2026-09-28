@@ -309,67 +309,77 @@ a:hover {
 }
 
 
+/* --- STILE CARTE MAGICHE (ROSSO, VERDE, BLU) --- */
+
 .griglia-carte {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .carta-dnd {
   width: 350px;
-  height: 500px; /* Adatta queste misure a quelle dei tuoi PNG esportati */
+  height: 500px;
   position: relative;
   background-size: cover;
   background-position: center;
-  color: black;
-  font-family: 'Times New Roman', serif; /* Simile a quello usato nel PDF */
+  color: #000;
+  font-family: 'Georgia', 'Times New Roman', serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  border-radius: 15px; 
 }
 
-/* Assegnazione degli sfondi in base alla scelta nel CMS */
-.sfondo-blu { background-image: url('/img/sfondo-blu.png'); }
-.sfondo-verde { background-image: url('/img/sfondo-verde.png'); }
-.sfondo-rosso { background-image: url('/img/sfondo-rosso.png'); }
+/* ATTENZIONE AL PERCORSO: usa /img/ o /static/img/ a seconda di dove hai caricato i file */
+.sfondo-blu { background-image: url('/static/img/sfondo-blu.png'); }
+.sfondo-verde { background-image: url('/static/img/sfondo-verde.png'); }
+.sfondo-rosso { background-image: url('/static/img/sfondo-rosso.png'); }
 
 .carta-titolo {
   position: absolute;
-  top: 25px; /* Modifica per centrare il testo nella pergamena in alto */
+  top: 35px;
   width: 100%;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #333;
+  margin: 0;
 }
 
 .carta-illustrazione {
   position: absolute;
-  top: 80px;
+  top: 90px;
   left: 50%;
   transform: translateX(-50%);
-  width: 250px;
-  height: 180px;
+  width: 200px;
+  height: 150px;
 }
 
 .carta-illustrazione img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .carta-tipo {
   position: absolute;
-  top: 270px;
+  top: 250px;
   width: 100%;
   text-align: center;
   font-style: italic;
   font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .carta-descrizione {
   position: absolute;
-  top: 300px;
-  left: 30px;
-  right: 30px;
-  font-size: 0.85rem;
-  line-height: 1.2;
+  top: 280px;
+  left: 35px;
+  right: 35px;
+  bottom: 40px;
+  font-size: 0.8rem;
+  line-height: 1.3;
+  overflow-y: auto; /* Aggiunge una barra di scorrimento invisibile se il testo dell'oggetto è molto lungo */
 }
