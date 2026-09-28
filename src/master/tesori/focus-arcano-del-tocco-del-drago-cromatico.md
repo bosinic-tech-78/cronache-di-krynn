@@ -5,6 +5,7 @@ rarita: Raro
 tipo: Oggetto Meraviglioso
 sintonizzazione: true
 pubblicato: true
+proprietario: Milo
 ---
 
 Hai un vantaggio ai tiri per l'iniziativa. Quando impugni questo focus, puoi usarlo come focus per i tuoi incantesimi.
