@@ -1,8 +1,10 @@
 ---
 title: Dragonlance
 image: ''
-rarita: Leggendaria - Arma (lancia o picca)
+rarita: Leggendaria
+tipo: Arma (lancia o picca)
 sintonizzazione: true
+pubblicato: false
 ---
 
 Una dragolancia è una famosa lancia forgiata da un metallo raro con l'aiuto di potenti manufatti. Su Krynn, la sua creazione è associata al dio Paladine e ai leggendari eroi che hanno combattuto contro la malvagità della Regina dei Draghi. Diverse lance sono forgiate per essere usate dai fanti (come picche) e dai cavalieri (come lance), ma le proprietà magiche delle armi sono le stesse.
