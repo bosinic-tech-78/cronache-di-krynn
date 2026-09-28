@@ -11,15 +11,24 @@ title: "Tesori"
     
     <div class="carta-dnd">
       <h3 class="carta-titolo">{{ oggetto.data.title }}</h3>
-      
+  
       {% if oggetto.data.image %}
       <div class="carta-illustrazione">
           <img src="{{ oggetto.data.image }}" alt="{{ oggetto.data.title }}">
       </div>
       {% endif %}
-      
-      <div class="carta-tipo">{{ oggetto.data.tipo }}</div>
-      
+  
+      <hr class="linea-tesoro">
+  
+      <div class="carta-tipo">
+        {{ oggetto.data.tipo }}
+        {% if oggetto.data.sintonizzazione %}
+          <br><span class="sintonizzazione">(Richiede Sintonizzazione)</span>
+        {% endif %}
+      </div>
+  
+      <hr class="linea-tesoro">
+  
       <div class="carta-descrizione">
         {{ oggetto.templateContent | safe }}
       </div>
