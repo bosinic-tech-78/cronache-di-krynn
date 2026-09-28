@@ -1,7 +1,7 @@
 ---
 title: "Il Caveau del Master"
 permalink: "/stanza-segreta-tesori-xyz/"
-templateEngineOverride: njk, md
+templateEngineOverride: njk
 ---
 
 <div class="griglia-carte">
