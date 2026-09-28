@@ -309,90 +309,82 @@ a:hover {
 }
 
 
-/* --- STILE CARTE MAGICHE (ROSSO, VERDE, BLU) --- */
+/* ==========================================
+   STILE TESORI - MANUALE DEL GIOCATORE
+   ========================================== */
 
 .griglia-carte {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
-  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Crea colonne automatiche che si adattano allo schermo */
+  gap: 2.5rem;
+  margin-top: 2rem;
 }
 
 .carta-dnd {
-  width: 350px;
-  height: 500px;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  color: #000;
-  font-family: 'Georgia', 'Times New Roman', serif;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  border-radius: 15px; 
+  /* Rimuove i vincoli di altezza e larghezza fisse */
+  display: flex;
+  flex-direction: column;
+  background: var(--box-bg); /* Usa lo sfondo pergamena semitrasparente del tuo sito */
+  border: 1px solid var(--border-color);
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 2px 4px 10px rgba(0,0,0,0.15);
 }
 
-/* ATTENZIONE AL PERCORSO: usa /img/ o /static/img/ a seconda di dove hai caricato i file */
-.sfondo-blu { background-image: url('/static/img/sfondo-blu.png'); }
-.sfondo-verde { background-image: url('/static/img/sfondo-verde.png'); }
-.sfondo-rosso { background-image: url('/static/img/sfondo-rosso.png'); }
-
 .carta-titolo {
-  position: absolute;
-  top: 22px; /* Allineato all'interno della pergamena superiore */
-  left: 45px; /* Impedisce al testo di finire sopra le gemme angolari */
-  right: 45px;
-  width: auto;
-  text-align: center;
-  font-size: 0.75rem; /* Rimpicciolito per accogliere titoli molto lunghi */
+  position: static; /* Annulla il posizionamento forzato di prima */
+  font-family: 'Cinzel', serif;
+  color: var(--accent-red);
+  font-size: 1.4rem;
   font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
   text-transform: uppercase;
-  color: #333;
-  margin: 0;
-  line-height: 1.1;
-  max-height: 35px; /* Taglia eventuali eccedenze se il titolo supera le 2 righe */
-  overflow: hidden;
 }
 
 .carta-illustrazione {
-  position: absolute;
-  top: 90px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 200px;
-  height: 150px;
+  position: static;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 .carta-illustrazione img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  max-width: 180px; /* Dimensione controllata per non invadere la pagina */
+  height: auto;
+  border-radius: 4px;
+  /* LA MAGIA: Fonde lo sfondo bianco delle immagini esportate con il colore pergamena del sito! */
+  mix-blend-mode: multiply; 
 }
 
 .carta-tipo {
-  position: absolute;
-  top: 275px; /* Spinto più in basso per uscire dall'area dell'immagine */
-  width: 100%;
+  position: static;
   text-align: center;
   font-style: italic;
-  font-weight: bold;
-  font-size: 0.8rem;
+  font-family: 'Cinzel', serif;
+  font-size: 0.95rem;
+  color: var(--border-color);
+  margin-bottom: 1.5rem;
 }
 
 .carta-descrizione {
-  position: absolute;
-  top: 315px; /* Abbassato notevolmente per non sovrapporsi al bordo centrale e al "tipo" */
-  left: 35px;
-  right: 35px;
-  bottom: 85px; /* Rialzato per evitare che il testo finisca sopra il logo del drago in basso */
-  overflow-y: auto;
+  position: static;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify; /* Testo giustificato come nei veri manuali */
+  color: var(--text-color);
+  /* Niente più barre di scorrimento: la carta si allunga da sola in base al testo! */
 }
 
-/* Regola per i paragrafi della descrizione (se non l'hai già inserita) */
 .carta-descrizione p, 
-.carta-descrizione ul, 
-.carta-descrizione li {
-  font-size: 0.75rem;
-  line-height: 1.2;
+.carta-descrizione ul {
+  font-size: 1rem;
   margin-top: 0;
-  margin-bottom: 8px;
+  margin-bottom: 1rem;
+}
+
+.carta-descrizione li {
+  margin-bottom: 0.5rem;
 }
