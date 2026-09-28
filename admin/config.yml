@@ -305,6 +305,7 @@ collections:
       - { label: "Richiede Sintonizzazione?", name: "sintonizzazione", widget: "boolean", default: false }
       - { label: "Statistiche ed Effetti Magici", name: "body", widget: "markdown" }
       - { label: "Rendi Pubblico", name: "pubblicato", widget: "boolean", default: false, required: true, hint: "Attiva per mostrare questo oggetto nel Caveau pubblico dei giocatori" }
+      - { label: "Proprietario (Nome PG)", name: "proprietario", widget: "string", required: false, hint: "Inserisci il nome esatto del Personaggio (es. Tanis). Lascia vuoto se non è di nessuno."}
 
   - name: "master_calendario"
     label: "🔒 Calendario di Krynn"
