@@ -390,3 +390,18 @@ a:hover {
 .carta-descrizione li {
   margin-bottom: 0.5rem;
 }
+
+.linea-tesoro {
+  border: 0;
+  height: 2px;
+  background-color: var(--border-color); /* Riprende il colore bronzo/cuoio del tuo tema */
+  margin: 1rem auto;
+  width: 90%; /* Lascia un po' di respiro ai lati */
+}
+
+.sintonizzazione {
+  font-family: 'Georgia', serif;
+  font-size: 0.85rem;
+  color: var(--accent-red); /* Usa il rosso scuro per farlo risaltare delicatamente */
+  font-weight: normal;
+}
