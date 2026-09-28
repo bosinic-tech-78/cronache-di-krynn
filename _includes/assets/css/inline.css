@@ -314,17 +314,19 @@ a:hover {
    ========================================== */
 
 .griglia-carte {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Crea colonne automatiche che si adattano allo schermo */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra le carte quando sono poche */
   gap: 2.5rem;
   margin-top: 2rem;
 }
 
 .carta-dnd {
-  /* Rimuove i vincoli di altezza e larghezza fisse */
   display: flex;
   flex-direction: column;
-  background: var(--box-bg); /* Usa lo sfondo pergamena semitrasparente del tuo sito */
+  width: 100%;
+  max-width: 420px; /* ECCO IL LIMITE DI LARGHEZZA! */
+  background: var(--box-bg);
   border: 1px solid var(--border-color);
   padding: 1.5rem;
   border-radius: 6px;
