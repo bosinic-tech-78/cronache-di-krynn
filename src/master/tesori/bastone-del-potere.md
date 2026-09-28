@@ -1,8 +1,10 @@
 ---
 title: Bastone del Potere
 image: /static/img/bastone-del-potere.jpeg.webp
-rarita: Molto Raro - Bastone
+rarita: Molto Raro
+tipo: Bastone
 sintonizzazione: true
+pubblicato: false
 ---
 
 Questo bastone può essere impugnato come un bastone da combattimento magico che conferisce un bonus di +2 ai tiri
