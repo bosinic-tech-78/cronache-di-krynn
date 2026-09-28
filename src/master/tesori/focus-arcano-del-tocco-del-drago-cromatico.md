@@ -1,6 +1,6 @@
 ---
 title: Focus Arcano del Tocco del Drago Cromatico
-image: ''
+image: /static/img/pasted-image-1790616261520.png
 rarita: Raro - Anello
 colore: verde
 tipo: Oggetto Meraviglioso
