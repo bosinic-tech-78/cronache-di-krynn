@@ -1,8 +1,10 @@
 ---
 title: Bastone dei Magi
 image: /static/img/magi.jpeg
-rarita: Leggendario - Bastone
+rarita: Leggendario
+tipo: Bastone
 sintonizzazione: true
+pubblicato: false
 ---
 
 Questo bastone può essere impugnato come un bastone ferrato magico che conferisce un bonus di +2 ai tiri per colpire e ai tiri per i danni effettuati con esso. Finché il personaggio lo impugna, ottiene un bonus di +2 ai tiri per colpire con incantesimo.
