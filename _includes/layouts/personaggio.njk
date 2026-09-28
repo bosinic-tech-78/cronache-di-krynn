@@ -135,6 +135,51 @@ layout: layouts/base.njk
     </ul>
   {% endif %}
 
+<!-- TESORI E OGGETTI MAGICI -->
+  {% set possiede_tesori = false %}
+  
+  {# Primo ciclo veloce per capire se il PG ha almeno un tesoro (serve per non stampare titoli a vuoto) #}
+  {% for tesoro in collections.master_tesori %}
+    {% if tesoro.data.pubblicato and tesoro.data.proprietario == title %}
+      {% set possiede_tesori = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if possiede_tesori %}
+    <h3 style="margin-top: 1.5rem; border-bottom: 2px solid var(--border-color, #8b5a2b); padding-bottom: 0.5rem; color: var(--accent-red, #8b0000);">
+      Oggetti Magici del Caveau
+    </h3>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+      {% for tesoro in collections.master_tesori %}
+        {% if tesoro.data.pubblicato and tesoro.data.proprietario == title %}
+          
+          <div style="background: rgba(255,255,255,0.6); border: 1px solid #8c6d3f; padding: 1rem; border-radius: 6px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+            <h4 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: #58180D; border: none; text-align: left;">
+              {{ tesoro.data.title }}
+            </h4>
+            
+            {% if tesoro.data.image %}
+              <img src="{{ tesoro.data.image }}" alt="{{ tesoro.data.title }}" style="max-width: 90px; float: right; margin-left: 1rem; margin-bottom: 0.5rem; mix-blend-mode: multiply; border: none; box-shadow: none;">
+            {% endif %}
+            
+            <div style="font-size: 0.85rem; font-style: italic; color: #333; margin-bottom: 0.8rem;">
+              {{ tesoro.data.tipo }}, {{ tesoro.data.rarita }}
+              {% if tesoro.data.sintonizzazione %}<br><span style="color: #8b0000;">(Richiede Sintonizzazione)</span>{% endif %}
+            </div>
+            
+            <div style="font-size: 0.85rem; line-height: 1.4; text-align: justify;">
+              {{ tesoro.templateContent | safe }}
+            </div>
+            
+            <div style="clear: both;"></div>
+          </div>
+          
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+
   <!-- STORIA / BACKGROUND ESTESO (Il testo libero in fondo al CMS) -->
   <div class="testo-personaggio" style="margin-top: 2.5rem; border-top: 2px solid #8b5a2b; padding-top: 1.5rem;">
     {{ content | safe }}
