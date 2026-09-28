@@ -1,7 +1,7 @@
 ---
 title: Anello della Rigenerazione
 image: /static/img/anello-di-rigenerazione.webp
-rarita: Molto Raro - Anello
+rarita: Molto Raro
 tipo: Anello
 sintonizzazione: true
 pubblicato: false
