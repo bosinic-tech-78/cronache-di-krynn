@@ -1,10 +1,8 @@
 ---
-title: "I Tesori del Gruppo"
-permalink: "/tesori/"
 layout: layouts/base.njk
-eleventyNavigation:
-  key: Tesori
-  order: 5
+permalink: /tesori/
+title: "Tesori"
+templateEngineOverride: njk
 ---
 
 <div class="griglia-carte">
