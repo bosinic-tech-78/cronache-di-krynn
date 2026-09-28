@@ -1,7 +1,7 @@
 ---
 title: Spada Lunga Ira di Drago Nero
 image: /static/img/pasted-image-1790624655040.png
-rarita: Rara - Spada Lunga
+rarita: Rara
 tipo: Spada Lunga
 sintonizzazione: true
 pubblicato: true
