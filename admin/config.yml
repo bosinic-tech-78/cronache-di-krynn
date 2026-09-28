@@ -301,6 +301,8 @@ collections:
       - { label: "Nome Oggetto", name: "title", widget: "string" }
       - { label: "Immagine Oggetto (Opzionale)", name: "image", widget: "image", required: false }
       - { label: "Rarità e Tipo", name: "rarita", widget: "string" }
+      - { label: "Template Carta", name: "colore", widget: "select", options: ["blu", "verde", "rosso"] }
+      - { label: "Sottotitolo (Tipo Oggetto)", name: "tipo", widget: "string", hint: "Es: Scudo, Oggetto Meraviglioso" }
       - { label: "Richiede Sintonizzazione?", name: "sintonizzazione", widget: "boolean", default: false }
       - { label: "Statistiche ed Effetti Magici", name: "body", widget: "markdown" }
 
