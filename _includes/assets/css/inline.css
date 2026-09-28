@@ -338,14 +338,19 @@ a:hover {
 
 .carta-titolo {
   position: absolute;
-  top: 35px;
-  width: 100%;
+  top: 22px; /* Allineato all'interno della pergamena superiore */
+  left: 45px; /* Impedisce al testo di finire sopra le gemme angolari */
+  right: 45px;
+  width: auto;
   text-align: center;
-  font-size: 0.95rem; /* Abbassato da 1.2rem */
+  font-size: 0.75rem; /* Rimpicciolito per accogliere titoli molto lunghi */
   font-weight: bold;
   text-transform: uppercase;
   color: #333;
   margin: 0;
+  line-height: 1.1;
+  max-height: 35px; /* Taglia eventuali eccedenze se il titolo supera le 2 righe */
+  overflow: hidden;
 }
 
 .carta-illustrazione {
@@ -365,29 +370,29 @@ a:hover {
 
 .carta-tipo {
   position: absolute;
-  top: 250px;
+  top: 275px; /* Spinto più in basso per uscire dall'area dell'immagine */
   width: 100%;
   text-align: center;
   font-style: italic;
   font-weight: bold;
-  font-size: 0.8rem; /* Abbassato da 0.9rem */
+  font-size: 0.8rem;
 }
 
 .carta-descrizione {
   position: absolute;
-  top: 280px;
+  top: 315px; /* Abbassato notevolmente per non sovrapporsi al bordo centrale e al "tipo" */
   left: 35px;
   right: 35px;
-  bottom: 40px; /* Blocca l'area di testo prima del bordo inferiore */
-  overflow-y: auto; /* Se il testo è troppo lungo, lo fa scorrere qui dentro */
+  bottom: 85px; /* Rialzato per evitare che il testo finisca sopra il logo del drago in basso */
+  overflow-y: auto;
 }
 
-/* Questa regola "schiaccia" i paragrafi del CMS dentro la carta */
+/* Regola per i paragrafi della descrizione (se non l'hai già inserita) */
 .carta-descrizione p, 
 .carta-descrizione ul, 
 .carta-descrizione li {
-  font-size: 0.75rem; /* Testo molto più piccolo (puoi scendere a 0.7rem se serve) */
+  font-size: 0.75rem;
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 8px; /* Avvicina i paragrafi per recuperare spazio */
+  margin-bottom: 8px;
 }
