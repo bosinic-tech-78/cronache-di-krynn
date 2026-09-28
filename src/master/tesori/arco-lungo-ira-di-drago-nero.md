@@ -5,6 +5,7 @@ rarita: Raro
 tipo: Arco Lungo
 sintonizzazione: true
 pubblicato: true
+proprietario: Nightwind
 ---
 
 Ogni volta che ottieni un 20 al tuo tiro per colpire con quest'arma, ogni creatura a tua scelta entro 1,5 metri dal bersaglio subisce 5 danni da acido.
