@@ -1,8 +1,10 @@
 ---
 title: Armatura a Piastre della Resistenza al Fuoco
 image: ''
-rarita: Rara - Armatura (pesante)
+rarita: Rara
+tipo: Armatura (pesante)
 sintonizzazione: true
+pubblicato: false
 ---
 
 - **Classe Armatura (CA):** 18
