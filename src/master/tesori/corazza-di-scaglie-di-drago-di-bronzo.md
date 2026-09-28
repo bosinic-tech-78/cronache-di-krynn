@@ -5,6 +5,7 @@ rarita: Molto Rara
 tipo: Armatura (corazza di scaglie)
 sintonizzazione: true
 pubblicato: true
+proprietario: Olmus
 ---
 
 L’armatura di scaglie di drago è fatta con le scaglie di una specie di drago.
