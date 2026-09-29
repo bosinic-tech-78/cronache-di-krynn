@@ -4,8 +4,27 @@ layout: layouts/base.njk
 <div class="pergamena-container">
   <div style="text-align: center; border-bottom: 2px solid #8b5a2b; padding-bottom: 1rem; margin-bottom: 2rem;">
     <h1 style="margin-bottom: 0;">{{ title }}</h1>
-    {% if info_base.nome_giocatore %}<p style="margin-top: 0.5rem; font-style: italic;">Giocato da: {{ info_base.nome_giocatore }}</p>{% endif %}
+    
+    {% if info_base.nome_giocatore %}
+      <p style="margin-top: 0.5rem; font-style: italic;">Giocato da: {{ info_base.nome_giocatore }}</p>
+    {% endif %}
+
+    <!-- Sottotitolo narrativo esclusivo per i PNG -->
+    {% if tipo == "PNG" %}
+      <p style="margin-top: 0.5rem; font-size: 1.2rem; color: #5c2018; font-style: italic; font-family: 'Georgia', serif;">
+        {% if info_base.razza %}{{ info_base.razza }}{% endif %}
+        {% if info_base.razza and info_base.classi %} | {% endif %}
+        {% if info_base.classi %}
+          {% for c in info_base.classi %}
+            {{ c.nome }}{% if not loop.last %} / {% endif %}
+          {% endfor %}
+        {% endif %}
+      </p>
+    {% endif %}
   </div>
+
+  <!-- INIZIO DEL BLOCCO NASCOSTO AI PNG -->
+  {% if tipo != "PNG" %}
 
   <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2rem; background: rgba(255,255,255,0.4); padding: 1rem; border-radius: 8px;">
     <div style="flex: 1; min-width: 200px;">
@@ -30,8 +49,6 @@ layout: layouts/base.njk
       <strong>Età:</strong> {{ aspetto.eta }}
     </div>
   </div>
-
-{% if tipo != "PNG" %}
 
   <!-- CARATTERISTICHE E MODIFICATORI (Stile D&D 5e) -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 1rem; background: #3e2723; padding: 1.5rem 1rem; border-radius: 8px; border: 2px solid #8b5a2b; box-shadow: 0 4px 10px rgba(0,0,0,0.4); margin-bottom: 3.5rem;">
