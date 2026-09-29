@@ -46,10 +46,11 @@ collections:
             name: "classi"
             widget: "list"
             collapsed: false
-            summary: '{{fields.nome}} (Liv. {{fields.livello}})'
+            required: false
+            summary: '{{fields.nome}}{% if fields.livello %} (Liv. {{fields.livello}}){% endif %}'
             fields:
-              - { label: "Nome Classe (es. Guerriero)", name: "nome", widget: "string" }
-              - { label: "Livello", name: "livello", widget: "number", value_type: "int", default: 1 }
+              - { label: "Nome Classe o Professione (es. Guerriero, Fabbro)", name: "nome", widget: "string" }
+              - { label: "Livello (Opzionale per PNG)", name: "livello", widget: "number", value_type: "int", required: false }
           - { label: "Razza", name: "razza", widget: "string", required: false }
           - { label: "Background", name: "background", widget: "string", required: false }
           - { label: "Allineamento", name: "allineamento", widget: "string", required: false }
