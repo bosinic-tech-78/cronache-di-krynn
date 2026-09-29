@@ -324,7 +324,7 @@ a:hover {
 .carta-dnd {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 90%;
   max-width: 420px; /* ECCO IL LIMITE DI LARGHEZZA! */
   background: var(--box-bg);
   border: 1px solid var(--border-color);
