@@ -5,7 +5,7 @@ image: /static/img/6-01 M9 Demelin.png
 info_base:
   nome_giocatore: ''
   classi:
-    - nome: Mago
+    - nome: Arcimago
       livello: 0
   razza: ''
   background: ''
