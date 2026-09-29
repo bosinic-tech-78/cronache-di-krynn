@@ -6,7 +6,7 @@ info_base:
   nome_giocatore: ''
   classi:
     - nome: Mago
-      livello: 12
+      livello: 0
   razza: ''
   background: ''
   allineamento: ''
