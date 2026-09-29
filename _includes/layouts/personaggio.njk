@@ -31,6 +31,8 @@ layout: layouts/base.njk
     </div>
   </div>
 
+{% if tipo != "PNG" %}
+
   <!-- CARATTERISTICHE E MODIFICATORI (Stile D&D 5e) -->
   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 1rem; background: #3e2723; padding: 1.5rem 1rem; border-radius: 8px; border: 2px solid #8b5a2b; box-shadow: 0 4px 10px rgba(0,0,0,0.4); margin-bottom: 3.5rem;">
     
@@ -304,6 +306,8 @@ layout: layouts/base.njk
       {% endfor %}
     </div>
   {% endif %}
+
+{% endif %}
 
   <!-- STORIA / BACKGROUND ESTESO (Il testo libero in fondo al CMS) -->
   <div class="testo-personaggio" style="margin-top: 2.5rem; border-top: 2px solid #8b5a2b; padding-top: 1.5rem;">
