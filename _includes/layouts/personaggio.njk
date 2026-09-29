@@ -31,23 +31,122 @@ layout: layouts/base.njk
     </div>
   </div>
 
-  <!-- CARATTERISTICHE E MODIFICATORI -->
-  <div style="display: flex; justify-content: space-around; flex-wrap: wrap; text-align: center; background: #3e2723; color: #fff; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; gap: 0.5rem;">
-    <div><strong>FOR</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.forza | default("-") }}</span>{% if caratteristiche.mod_forza %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_forza }}</span>{% endif %}</div>
-    <div><strong>DES</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.destrezza | default("-") }}</span>{% if caratteristiche.mod_destrezza %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_destrezza }}</span>{% endif %}</div>
-    <div><strong>COS</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.costituzione | default("-") }}</span>{% if caratteristiche.mod_costituzione %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_costituzione }}</span>{% endif %}</div>
-    <div><strong>INT</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.intelligenza | default("-") }}</span>{% if caratteristiche.mod_intelligenza %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_intelligenza }}</span>{% endif %}</div>
-    <div><strong>SAG</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.saggezza | default("-") }}</span>{% if caratteristiche.mod_saggezza %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_saggezza }}</span>{% endif %}</div>
-    <div><strong>CAR</strong><br><span style="font-size: 1.5rem;">{{ caratteristiche.carisma | default("-") }}</span>{% if caratteristiche.mod_carisma %}<br><span style="color: #e2cc98; font-size: 1.1rem; font-weight: bold;">{{ caratteristiche.mod_carisma }}</span>{% endif %}</div>
+  <!-- CARATTERISTICHE E MODIFICATORI (Stile D&D 5e) -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); gap: 1rem; background: #3e2723; padding: 1.5rem 1rem; border-radius: 8px; border: 2px solid #8b5a2b; box-shadow: 0 4px 10px rgba(0,0,0,0.4); margin-bottom: 3.5rem;">
+    
+    <!-- FOR -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">FOR</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_forza | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.forza | default("-") }}
+      </div>
+    </div>
+
+    <!-- DES -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">DES</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_destrezza | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.destrezza | default("-") }}
+      </div>
+    </div>
+    
+    <!-- COS -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">COS</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_costituzione | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.costituzione | default("-") }}
+      </div>
+    </div>
+
+    <!-- INT -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">INT</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_intelligenza | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.intelligenza | default("-") }}
+      </div>
+    </div>
+
+    <!-- SAG -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">SAG</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_saggezza | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.saggezza | default("-") }}
+      </div>
+    </div>
+
+    <!-- CAR -->
+    <div style="display: flex; flex-direction: column; align-items: center; position: relative;">
+      <div style="font-family: 'Cinzel', serif; font-size: 1.2rem; font-weight: bold; color: #e2cc98; margin-bottom: 0.5rem;">CAR</div>
+      <div style="background: rgba(255,255,255,0.1); border: 1px solid rgba(226, 204, 152, 0.4); border-radius: 8px; width: 100%; max-width: 80px; padding: 0.8rem 0; text-align: center;">
+        <span style="font-size: 1.8rem; font-weight: bold; color: #fff; line-height: 1;">{{ caratteristiche.mod_carisma | default("0") }}</span>
+      </div>
+      <div style="background: #e2cc98; color: #3e2723; font-weight: bold; border-radius: 50%; width: 32px; height: 32px; display: flex; justify-content: center; align-items: center; position: absolute; bottom: -16px; border: 2px solid #3e2723; font-size: 0.95rem; box-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+        {{ caratteristiche.carisma | default("-") }}
+      </div>
+    </div>
+    
   </div>
 
-  <!-- COMBATTIMENTO -->
-  <div style="display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; margin-bottom: 2rem; font-size: 1.2rem;">
-    <div>🛡️ <strong>CA:</strong> {{ combattimento.ca }}</div>
-    <div>❤️ <strong>PF:</strong> {{ combattimento.pf_max }}</div>
-    <div>⚡ <strong>Iniziativa:</strong> {{ combattimento.iniziativa }}</div>
-    <div>🏃 <strong>Velocità:</strong> {{ combattimento.velocita }}</div>
-    {% if combattimento.competenza %}<div>⭐ <strong>Competenza:</strong> {{ combattimento.competenza }}</div>{% endif %}
+  <!-- COMBATTIMENTO E STATISTICHE -->
+  <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 3rem; font-family: 'Georgia', serif;">
+    
+    <div style="background: rgba(255,255,255,0.7); border: 1px solid #8b5a2b; border-radius: 8px; padding: 0.5rem 1.2rem; box-shadow: 2px 2px 6px rgba(0,0,0,0.15); display: flex; align-items: center; gap: 0.8rem; min-width: 140px; justify-content: center;">
+      <span style="font-size: 1.5rem;">🛡️</span> 
+      <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: #5c2018; font-weight: bold;">CA</span>
+        <span style="font-size: 1.4rem; font-weight: bold; color: #2b1704;">{{ combattimento.ca }}</span>
+      </div>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.7); border: 1px solid #8b5a2b; border-radius: 8px; padding: 0.5rem 1.2rem; box-shadow: 2px 2px 6px rgba(0,0,0,0.15); display: flex; align-items: center; gap: 0.8rem; min-width: 140px; justify-content: center;">
+      <span style="font-size: 1.5rem;">❤️</span> 
+      <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: #5c2018; font-weight: bold;">PF</span>
+        <span style="font-size: 1.4rem; font-weight: bold; color: #2b1704;">{{ combattimento.pf_max }}</span>
+      </div>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.7); border: 1px solid #8b5a2b; border-radius: 8px; padding: 0.5rem 1.2rem; box-shadow: 2px 2px 6px rgba(0,0,0,0.15); display: flex; align-items: center; gap: 0.8rem; min-width: 140px; justify-content: center;">
+      <span style="font-size: 1.5rem;">⚡</span> 
+      <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: #5c2018; font-weight: bold;">Iniziativa</span>
+        <span style="font-size: 1.4rem; font-weight: bold; color: #2b1704;">{{ combattimento.iniziativa }}</span>
+      </div>
+    </div>
+
+    <div style="background: rgba(255,255,255,0.7); border: 1px solid #8b5a2b; border-radius: 8px; padding: 0.5rem 1.2rem; box-shadow: 2px 2px 6px rgba(0,0,0,0.15); display: flex; align-items: center; gap: 0.8rem; min-width: 140px; justify-content: center;">
+      <span style="font-size: 1.5rem;">🏃</span> 
+      <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: #5c2018; font-weight: bold;">Velocità</span>
+        <span style="font-size: 1.4rem; font-weight: bold; color: #2b1704;">{{ combattimento.velocita }}</span>
+      </div>
+    </div>
+
+    {% if combattimento.competenza %}
+    <div style="background: rgba(255,255,255,0.7); border: 1px solid #8b5a2b; border-radius: 8px; padding: 0.5rem 1.2rem; box-shadow: 2px 2px 6px rgba(0,0,0,0.15); display: flex; align-items: center; gap: 0.8rem; min-width: 140px; justify-content: center;">
+      <span style="font-size: 1.5rem;">⭐</span> 
+      <div style="display: flex; flex-direction: column; line-height: 1.1; text-align: left;">
+        <span style="font-size: 0.75rem; text-transform: uppercase; color: #5c2018; font-weight: bold;">Competenza</span>
+        <span style="font-size: 1.4rem; font-weight: bold; color: #2b1704;">{{ combattimento.competenza }}</span>
+      </div>
+    </div>
+    {% endif %}
+
   </div>
 
   <hr style="border-top: 1px dashed #8b5a2b; opacity: 0.5; margin-bottom: 2rem;">
