@@ -15,7 +15,6 @@ templateEngineOverride: njk
   
   <div class="sezioni-grid">
   {% for pg in collections.personaggi %}
-    {# Stampa solo se il tipo NON è PNG (così include i PG e quelli vecchi senza tipo) #}
     {% if pg.data.tipo != "PNG" %}
       <div class="sezione-card scheda-personaggio">
         <div class="personaggio-header">
@@ -35,13 +34,19 @@ templateEngineOverride: njk
 
         <p style="text-align: center;">
           <strong>
-            {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %}<br> 
+            {# Stampa la razza se esiste #}
+            {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %}
+            
+            {# Va a capo solo se ci sono sia razza che classe #}
+            {% if pg.data.info_base.razza and (pg.data.info_base.classi or pg.data.info_base.classe) %}<br>{% endif %}
+            
+            {# Gestione Classi/Professioni #}
             {% if pg.data.info_base.classi %}
               {% for c in pg.data.info_base.classi %}
-                {{ c.nome }} (Liv. {{ c.livello }}){% if not loop.last %} / {% endif %}
+                {{ c.nome }}{% if c.livello %} (Liv. {{ c.livello }}){% endif %}{% if not loop.last %} / {% endif %}
               {% endfor %}
-            {% else %}
-              {{ pg.data.info_base.classe }} (Liv. {{ pg.data.info_base.livello }})
+            {% elif pg.data.info_base.classe %}
+              {{ pg.data.info_base.classe }}{% if pg.data.info_base.livello %} (Liv. {{ pg.data.info_base.livello }}){% endif %}
             {% endif %}
           </strong>
         </p>
@@ -82,7 +87,6 @@ templateEngineOverride: njk
   
   <div class="sezioni-grid">
   {% for pg in collections.personaggi %}
-    {# Stampa SOLO se il tipo è esattamente PNG #}
     {% if pg.data.tipo == "PNG" %}
       <div class="sezione-card scheda-personaggio">
         <div class="personaggio-header">
@@ -98,13 +102,19 @@ templateEngineOverride: njk
 
         <p style="text-align: center;">
           <strong>
-            {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %}<br> 
+            {# Stampa la razza se esiste #}
+            {% if pg.data.info_base.razza %}{{ pg.data.info_base.razza }}{% endif %}
+            
+            {# Va a capo solo se ci sono sia razza che classe #}
+            {% if pg.data.info_base.razza and (pg.data.info_base.classi or pg.data.info_base.classe) %}<br>{% endif %}
+            
+            {# Gestione Classi/Professioni #}
             {% if pg.data.info_base.classi %}
               {% for c in pg.data.info_base.classi %}
-                {{ c.nome }} (Liv. {{ c.livello }}){% if not loop.last %} / {% endif %}
+                {{ c.nome }}{% if c.livello %} (Liv. {{ c.livello }}){% endif %}{% if not loop.last %} / {% endif %}
               {% endfor %}
-            {% else %}
-              {{ pg.data.info_base.classe }} (Liv. {{ pg.data.info_base.livello }})
+            {% elif pg.data.info_base.classe %}
+              {{ pg.data.info_base.classe }}{% if pg.data.info_base.livello %} (Liv. {{ pg.data.info_base.livello }}){% endif %}
             {% endif %}
           </strong>
         </p>
