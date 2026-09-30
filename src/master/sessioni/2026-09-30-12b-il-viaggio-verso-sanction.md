@@ -10,4 +10,4 @@ incastri:
   tesori_rel: []
 ---
 
-Sanction
+**Via Terrestre:** Attraversare le Montagne Khalkist (i Signori del Destino). Affronteranno _Giganti del Fuoco_ che forgiano armi per l'Armata del Drago e tribù di barbari ostili, oltre a pericoli ambientali come eruzioni e fiumi di lava.
