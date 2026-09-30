@@ -1,5 +1,6 @@
 ---
 title: Capitolo 13 - I Cavalcadraghi e Kalaman (Livello 17 -> 19)
+ordine: 13
 stato: Da Giocare
 incastri:
   png_rel:
