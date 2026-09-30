@@ -1,5 +1,5 @@
 ---
-title: 11b - La Volta del Destino
+title: 11.b - La Volta del Destino
 ordine: 2
 stato: Da Giocare
 date: ''
