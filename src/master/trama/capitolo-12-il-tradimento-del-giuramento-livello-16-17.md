@@ -1,5 +1,6 @@
 ---
 title: Capitolo 12 - Il Tradimento del Giuramento (Livello 16 -> 17)
+ordine: 12
 stato: Da Giocare
 incastri:
   png_rel:
