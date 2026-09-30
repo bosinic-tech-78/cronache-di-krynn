@@ -1,5 +1,5 @@
 ---
-title: '- La Tomba del Re-Sacerdote Eretico'
+title: 11d - La Tomba del Re-Sacerdote Eretico
 ordine: 4
 stato: Da Giocare
 date: ''
