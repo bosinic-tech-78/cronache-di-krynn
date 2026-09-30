@@ -1,5 +1,5 @@
 ---
-title: Capitolo 5 - Le Lande Settentrionali e gli Elfi Silvanesti
+title: Capitolo 05 - Le Lande Settentrionali e gli Elfi Silvanesti
 date: 2026-09-23T21:23:00
 image: /static/img/0-00 Cover Art 1.jpg
 ---
