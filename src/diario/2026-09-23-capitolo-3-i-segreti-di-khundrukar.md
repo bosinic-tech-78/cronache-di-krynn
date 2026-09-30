@@ -1,5 +1,5 @@
 ---
-title: Capitolo 3 - I Segreti di Khundrukar
+title: Capitolo 03 - I Segreti di Khundrukar
 date: 2026-09-23T19:22:00
 image: /static/img/0-00 Cover Art 1.jpg
 ---
