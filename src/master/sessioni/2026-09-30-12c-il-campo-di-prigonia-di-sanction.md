@@ -1,5 +1,5 @@
 ---
-title: 12c - Il Campo di Prigonia di Sanction
+title: 12.c - Il Campo di Prigonia di Sanction
 ordine: 3
 stato: Da Giocare
 date: ''
