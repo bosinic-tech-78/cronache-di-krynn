@@ -1,5 +1,5 @@
 ---
-title: Capitolo 10 - La High Clerist's Tower (Livello 13 -> 14)
+title: Capitolo 10 - La Torre dell'Alto Chierico (Livello 13 -> 14)
 ordine: 10
 stato: Da Giocare
 incastri:
