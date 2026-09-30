@@ -1,5 +1,5 @@
 ---
-title: 12a - La Missione di Silvara
+title: 12.a - La Missione di Silvara
 ordine: 1
 stato: Da Giocare
 date: ''
