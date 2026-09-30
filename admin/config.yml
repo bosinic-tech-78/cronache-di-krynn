@@ -224,6 +224,25 @@ collections:
           - { label: "Date ed Eventi Temporali", name: "calendario_rel", widget: "relation", collection: "master_calendario", search_fields: ["title", "data_krynn"], value_field: "title", multiple: true, required: false }
       - { label: "Appunti Narrativi", name: "body", widget: "markdown" }
 
+  - name: "master_sessioni"
+    label: "🔒 Sessioni Segrete (Master)"
+    folder: "src/master/sessioni"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titolo Sessione", name: "title", widget: "string", hint: "Es: Sessione 12 - L'imboscata" }
+      - { label: "Data Giocata", name: "date", widget: "datetime" }
+      - { label: "Capitolo di Riferimento", name: "trama_rel", widget: "relation", collection: "master_trama", search_fields: ["title"], value_field: "title", required: false, hint: "A quale macro-trama appartiene questa sessione?" }
+      - label: "Incastri di Gioco"
+        name: "incastri"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Mostri o PNG Incontrati", name: "png_rel", widget: "relation", collection: "master_png_mostri", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+          - { label: "Luoghi Visitati", name: "luoghi_rel", widget: "relation", collection: "master_luoghi", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+          - { label: "Tesori Assegnati", name: "tesori_rel", widget: "relation", collection: "master_tesori", search_fields: ["title"], value_field: "title", multiple: true, required: false }
+      - { label: "Appunti di Sessione", name: "body", widget: "markdown" }
+
   - name: "master_png_mostri"
     label: "🔒 Bestiario & PNG Segreti"
     folder: "src/master/bestiario"
