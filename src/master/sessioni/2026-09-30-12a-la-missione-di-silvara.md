@@ -10,4 +10,4 @@ incastri:
   tesori_rel: []
 ---
 
-Silvara
+D'argent (Silvara) avvicina i PG. Il Drago Metallico Cymbal è scomparso. Il luogo è il **Campo di Prigionia di Sanction**, la città vulcanica base dell'Armata del Drago.
