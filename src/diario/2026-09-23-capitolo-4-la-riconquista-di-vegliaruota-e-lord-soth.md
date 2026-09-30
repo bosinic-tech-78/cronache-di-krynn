@@ -1,5 +1,5 @@
 ---
-title: Capitolo 4 - La Riconquista di Vegliaruota e Lord Soth
+title: Capitolo 04 - La Riconquista di Vegliaruota e Lord Soth
 date: 2026-09-23T19:27:00
 image: /static/img/0-00 Cover Art 1.jpg
 ---
