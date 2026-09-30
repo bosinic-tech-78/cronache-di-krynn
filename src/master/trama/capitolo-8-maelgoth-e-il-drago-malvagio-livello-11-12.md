@@ -1,5 +1,5 @@
 ---
-title: Capitolo 8 - Maelgoth e il Drago Malvagio (Livello 11 -> 12)
+title: Capitolo 08 - Maelgoth e il Drago Malvagio (Livello 11 -> 12)
 stato: Da Giocare
 incastri:
   png_rel:
