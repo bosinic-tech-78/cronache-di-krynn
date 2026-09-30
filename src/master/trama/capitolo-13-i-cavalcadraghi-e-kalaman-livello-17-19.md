@@ -15,10 +15,20 @@ incastri:
 
 I Draghi Buoni entrano in guerra. I PG stringono legami con draghi di bronzo, argento o oro. **Bonus Cavalcadraghi:**
 
-- **Simbiosi di Iniziativa:** Agiscono nello stesso turno del drago.
-- **Vantaggio dall'Alto:** Vantaggio agli attacchi in mischia contro creature terrestri più piccole.
-- **Protezione Condivisa:** Mentre si è in sella, il cavaliere ottiene i benefici delle Resistenze Elementali del drago. E se il drago usa il talento "Schivare", vale anche per il cavaliere.
-- **Comando del Soffio:** Il PG può usare una sua azione (o il drago la sua) per allineare una carica aerea devastante seguita dal Soffio.
+- Gestione del Turno (Iniziativa Simbiotica)
+- Il drago e il cavaliere condividono lo stesso conteggio di iniziativa e agiscono simultaneamente. I giocatori decidono l'ordine esatto delle azioni (es. il cavaliere attacca, il drago si muove, il drago attacca).
+- Il movimento è gestito interamente dal drago. Il cavaliere non spende il proprio movimento, salvo per salire o scendere dalla sella.
+
+## Vantaggi Tattici
+
+- **Assalto dall'Alto:** Il cavaliere ha sempre Vantaggio ai tiri per colpire in mischia contro bersagli terrestri non in volo. Inoltre, le armi con portata (come le Dragonlance) beneficiano della stazza del drago per estendere il proprio raggio di minaccia di 1,5 metri.
+- **Resistenza Condivisa:** Finché è in sella, il cavaliere ottiene le resistenze elementali del drago. Se il drago è costretto a un Tiro Salvezza su Destrezza contro un effetto ad area, il cavaliere può usare la propria Reazione per proteggersi dietro le scaglie della bestia, subendo zero danni in caso di successo.
+- **Sincronia del Soffio:** Invece di lasciare l'azione al drago, il cavaliere può spendere la propria Azione per orchestrare una manovra combinata: il cavaliere lancia un incantesimo o compie una sequenza di attacchi fisici, e il drago rilascia simultaneamente il suo soffio nello stesso round, creando una devastazione combinata.
+
+## Pericoli Aerei e Cadute
+
+- **Sbalzati di Sella:** Se un effetto avversario sposta il drago contro la sua volontà o lo rende prono, il cavaliere deve superare un TS su Destrezza o Forza (CD 15) per non cadere nel vuoto.
+- **Salvataggio in Picchiata:** Se il cavaliere cade, il drago può usare la sua Reazione per lanciarsi in picchiata, muovendosi fino alla sua velocità di volo per riprenderlo a mezz'aria prima che subisca i danni da caduta.
 
 **Il Risveglio Supremo (Fizban):** Un Antico Drago D'Oro incontra i PG. Con una cerimonia magica infonde la pura energia primordiale nei loro oggetti draconici (armi/armature), portandoli allo stato **Asceso (Ascendant)**, rendendoli artefatti leggendari in grado di uccidere dei.
 
