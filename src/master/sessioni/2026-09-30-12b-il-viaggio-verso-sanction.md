@@ -1,5 +1,5 @@
 ---
-title: 12b - Il Viaggio verso Sanction
+title: 12.b - Il Viaggio verso Sanction
 ordine: 2
 stato: Da Giocare
 date: ''
