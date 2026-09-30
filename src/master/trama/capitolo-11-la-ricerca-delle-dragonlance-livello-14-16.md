@@ -1,5 +1,6 @@
 ---
 title: Capitolo 11 - La Ricerca delle Dragonlance (Livello 14 -> 16)
+ordine: 11
 stato: Da Giocare
 incastri:
   png_rel: []
