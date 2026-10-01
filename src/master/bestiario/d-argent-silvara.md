@@ -1,6 +1,6 @@
 ---
 title: D'argent (Silvara)
-image: /static/img/Silvara.png
+image: /static/img/Gemini_Generated_Image_Silvara.jpg
 tipo_allineamento: a
 ca: a
 hp: a
