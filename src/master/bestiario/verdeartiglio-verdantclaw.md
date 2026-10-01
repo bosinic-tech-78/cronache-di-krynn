@@ -1,5 +1,6 @@
 ---
 title: Verdeartiglio (Verdantclaw)
+image: /static/img/Gemini_Generated_Image_Verdeartiglio.jpg
 tipo_allineamento: a
 ca: a
 hp: a
