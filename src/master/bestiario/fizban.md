@@ -1,6 +1,6 @@
 ---
 title: Fizban
-image: /static/img/fizban.webp
+image: /static/img/Gemini_Generated_Image_Fizban.jpg
 tipo_allineamento: a
 ca: a
 hp: a
