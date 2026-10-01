@@ -11,6 +11,7 @@ incastri:
     - Giovane Drago Blu
     - Cavalcaviverne
     - Kitiara Uth Matar
+    - Generale Vrak
   luoghi_rel:
     - Kalaman
   tesori_rel:
