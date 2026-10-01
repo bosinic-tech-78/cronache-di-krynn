@@ -14,33 +14,33 @@ info_base:
   classe: Guerriero
   livello: 10
 aspetto:
-  eta: ''
-  altezza: ''
-  peso: ''
-  occhi: ''
-  carnagione: ''
-  capelli: ''
+  eta: '22'
+  altezza: 1,75m
+  peso: 70kg
+  occhi: Azzurri
+  carnagione: Chiara
+  capelli: Biondi
 caratteristiche:
-  forza: ''
-  mod_forza: ''
-  destrezza: ''
-  mod_destrezza: ''
-  costituzione: ''
-  mod_costituzione: ''
-  intelligenza: ''
-  mod_intelligenza: ''
-  saggezza: ''
-  mod_saggezza: ''
-  carisma: ''
-  mod_carisma: ''
+  forza: '16'
+  mod_forza: '+3'
+  destrezza: '14'
+  mod_destrezza: '+2'
+  costituzione: '18'
+  mod_costituzione: '+4'
+  intelligenza: '10'
+  mod_intelligenza: '0'
+  saggezza: '15'
+  mod_saggezza: '+2'
+  carisma: '8'
+  mod_carisma: '-1'
 combattimento:
-  ca: null
-  iniziativa: ''
-  velocita: ''
-  pf_max: null
-  dadi_vita: ''
-  competenza: ''
-  percezione_passiva: ''
+  ca: 20
+  iniziativa: '+7'
+  velocita: 9m
+  pf_max: 99
+  dadi_vita: 10d10
+  competenza: '+4'
+  percezione_passiva: '16'
 abilita_lista: []
 competenze_lista: []
 talenti: []
