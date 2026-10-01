@@ -1,6 +1,6 @@
 ---
 title: Kalaman
-image: ''
+image: /static/img/Screenshot 2026-10-01 222849.png
 mappe_lista:
   - nome: Mappa
     file_mappa: /static/img/kalaman.png
