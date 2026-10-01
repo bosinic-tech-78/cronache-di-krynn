@@ -43,7 +43,19 @@ combattimento:
   percezione_passiva: '16'
 abilita_lista: []
 competenze_lista: []
-talenti: []
+talenti:
+  - nome: Allerta
+    descrizione: ''
+  - nome: Combattente in Sella
+    descrizione: ''
+  - nome: Cavaliere della Spada
+    descrizione: ''
+  - nome: Scudiero di Solamnia
+    descrizione: ''
+  - nome: Maestro degli Scudi
+    descrizione: ''
+  - nome: Resiliente
+    descrizione: ''
 armi: []
 personalita:
   tratti: ''
