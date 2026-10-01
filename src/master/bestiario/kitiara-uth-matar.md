@@ -1,6 +1,6 @@
 ---
 title: Kitiara Uth Matar
-image: /static/img/Kitiara.png
+image: /static/img/Gemini_Generated_Image_Kitiara.jpg
 tipo_allineamento: a
 ca: a
 hp: a
