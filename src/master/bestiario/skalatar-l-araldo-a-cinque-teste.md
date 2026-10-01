@@ -1,6 +1,6 @@
 ---
 title: Skalatar, L'Araldo a Cinque Teste
-image: ''
+image: /static/img/Gemini_Generated_Image_Skalatar.jpg
 tipo_allineamento: a
 ca: a
 hp: a
