@@ -1,6 +1,6 @@
 ---
 title: Demilich
-image: /static/img/Gemini_Generated_Image_Demilich.jpg
+image: /static/img/Gemini_Generated_Image_1slbqd1slbqd1slb.jpg
 tipo_allineamento: a
 ca: a
 hp: a
