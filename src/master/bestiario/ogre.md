@@ -1,6 +1,6 @@
 ---
 title: Ogre
-image: ''
+image: /static/img/ogre.jpeg.webp
 tipo_allineamento: a
 ca: a
 hp: a
