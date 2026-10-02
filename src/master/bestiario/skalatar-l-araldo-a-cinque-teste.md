@@ -7,7 +7,7 @@ hp: '437'
 velocita: 30 ft., Fly 60 ft.
 iniziativa: '+16'
 stats:
-  forza: '26'
+  forza: 26, +8, +8
   destrezza: '14'
   costituzione: '24'
   intelligenza: '22'
