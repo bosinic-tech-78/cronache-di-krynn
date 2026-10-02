@@ -1,6 +1,6 @@
 ---
 title: Cavaliere della Morte
-image: ''
+image: /static/img/Screenshot 2026-10-02 140833.png
 tipo_allineamento: a
 ca: a
 hp: a
