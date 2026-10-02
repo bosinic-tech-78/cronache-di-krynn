@@ -1,6 +1,6 @@
 ---
 title: Hobgoblin
-image: ''
+image: /static/img/hobgoblin.png.webp
 tipo_allineamento: a
 ca: a
 hp: a
