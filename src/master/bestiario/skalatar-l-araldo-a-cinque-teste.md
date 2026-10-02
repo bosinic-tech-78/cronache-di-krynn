@@ -8,11 +8,11 @@ velocita: 30 ft., Fly 60 ft.
 iniziativa: '+16'
 stats:
   forza: 26, +8, +8
-  destrezza: '14'
-  costituzione: '24'
-  intelligenza: '22'
-  saggezza: '18'
-  carisma: '24'
+  destrezza: 14, +2, +9
+  costituzione: 24, +7, +7
+  intelligenza: 22, +6, +6
+  saggezza: 18, +4, +11
+  carisma: 24, +7, +7
 competenze_base:
   skills: Perception +11, Persuasion +21
   sensi: Truesight 120 ft., Passive Perception 21
