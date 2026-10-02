@@ -39,7 +39,7 @@ azioni_lista:
     descrizione: "Melee Attack Roll: +15, reach 10 ft. Hit: 18 (3d6 + 8) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving Throw: DC 22. Failure: The target has the Poisoned condition. While Poisoned, the target can't regain Hit Points and takes 21 (6d6) Poison damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
   - tipo: Azione
     nome: Devilish Claw.
-    descrizione: 'Melee Attack Roll: +15, reach 10 ft. Hit: 30 (5d8 + 8) Necrotic damage.'
+    descrizione: 'Melee Attack Roll: +15, reach 10 ft. Hit: 30 (5d8 + 8) Necrotic damage and roll a d10; the target takes 20 (4d6+6) extra damage depending on the result: 1-2 Acid; 3-4 Cold; 5-6 Fire; 7-8 Lightning; 9-10 Poison'
   - tipo: Azione
     nome: Fiery Mace.
     descrizione: 'Melee Attack Roll: +15, reach 10 ft. Hit: 22 (4d6 + 8) Force damage plus 21 (6d6) Fire damage'
