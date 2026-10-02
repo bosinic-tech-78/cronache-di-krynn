@@ -7,12 +7,12 @@ hp: '437'
 velocita: 30 ft., Fly 60 ft.
 iniziativa: '+16'
 stats:
-  forza: a
-  destrezza: a
-  costituzione: a
-  intelligenza: a
-  saggezza: a
-  carisma: a
+  forza: '26'
+  destrezza: '14'
+  costituzione: '24'
+  intelligenza: '22'
+  saggezza: '18'
+  carisma: '24'
 competenze_base:
   skills: Perception +11, Persuasion +21
   sensi: Truesight 120 ft., Passive Perception 21
