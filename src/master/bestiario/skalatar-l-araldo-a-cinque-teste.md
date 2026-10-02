@@ -25,6 +25,12 @@ azioni_lista:
   - tipo: Tratto
     nome: Fear Aura.
     descrizione: "Skalatar fiend emanates an aura in a 20-foot Emanation while it doesn't have the Incapacitated condition. Wisdom Saving Throw: DC 22, any enemy that starts its turn in the aura. Failure: The target has the Frightened condition until the start of its next turn. Success: The target is immune to this pit fiend's aura for 24 hours."
+  - tipo: Tratto
+    nome: Legendary Resistance (4/Day).
+    descrizione: If Skalatar fails a saving throw, it can choose to succeed instead.
+  - tipo: Tratto
+    nome: Magic Resistance.
+    descrizione: Skalatar has Advantage on saving throws against spells and other magical effects.
 ---
 
 **Skalatar, L'Araldo a Cinque Teste**, un immondo signore dei demoni (usa le statistiche di un _Empyrean_ o _Pit Fiend_ pesantemente modificato) infuso con i poteri delle 5 teste dei draghi cromatici.
