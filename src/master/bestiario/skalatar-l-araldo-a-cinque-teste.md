@@ -13,6 +13,11 @@ stats:
   intelligenza: 22, +6, +6
   saggezza: 18, +4, +11
   carisma: 24, +7, +7
+resistenze_immunita:
+  vulnerabilita: ''
+  resistenze: Acid, Cold, Lighting
+  immunita_danni: Fire, Poison;
+  immunita_condizioni: Poisoned
 competenze_base:
   skills: Perception +11, Persuasion +21
   sensi: Truesight 120 ft., Passive Perception 21
