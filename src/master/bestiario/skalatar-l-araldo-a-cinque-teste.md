@@ -31,6 +31,21 @@ azioni_lista:
   - tipo: Tratto
     nome: Magic Resistance.
     descrizione: Skalatar has Advantage on saving throws against spells and other magical effects.
+  - tipo: Azione
+    nome: Multiattack.
+    descrizione: Skalatar makes one Bite attack, two Devilish Claw attacks, and one Fiery Mace attack.
+  - tipo: Azione
+    nome: Bite.
+    descrizione: "Melee Attack Roll: +15, reach 10 ft. Hit: 18 (3d6 + 8) Piercing damage. If the target is a creature, it must make the following saving throw. Constitution Saving Throw: DC 22. Failure: The target has the Poisoned condition. While Poisoned, the target can't regain Hit Points and takes 21 (6d6) Poison damage at the start of each of its turns, and it repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+  - tipo: Azione
+    nome: Devilish Claw.
+    descrizione: 'Melee Attack Roll: +15, reach 10 ft. Hit: 30 (5d8 + 8) Necrotic damage.'
+  - tipo: Azione
+    nome: Fiery Mace.
+    descrizione: 'Melee Attack Roll: +15, reach 10 ft. Hit: 22 (4d6 + 8) Force damage plus 21 (6d6) Fire damage'
+  - tipo: Azione
+    nome: Hellfire Spellcasting (Recharge 4–6).
+    descrizione: Skalatar casts Fireball (level 5 version) twice, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 22). It can replace one Fireball with Hold Monster (level 7 version) or Wall of Fire.
 ---
 
 **Skalatar, L'Araldo a Cinque Teste**, un immondo signore dei demoni (usa le statistiche di un _Empyrean_ o _Pit Fiend_ pesantemente modificato) infuso con i poteri delle 5 teste dei draghi cromatici.
