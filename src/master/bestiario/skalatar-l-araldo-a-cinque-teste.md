@@ -14,10 +14,10 @@ stats:
   saggezza: a
   carisma: a
 competenze_base:
-  skills: ''
-  sensi: ''
-  lingue: ''
-  cr: ''
+  skills: Perception +11, Persuasion +21
+  sensi: Truesight 120 ft., Passive Perception 21
+  lingue: Infernal; telepathy 120 ft.
+  cr: 23 (XP 50.000; PB +7)
 azioni_lista: []
 ---
 
