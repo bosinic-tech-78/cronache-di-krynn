@@ -273,6 +273,16 @@ collections:
           - { label: "SAG (Punteggio, Mod, Salvezza)", name: "saggezza", widget: "string" }
           - { label: "CAR (Punteggio, Mod, Salvezza)", name: "carisma", widget: "string" }
 
+      - label: "Resistenze, Immunità e Vulnerabilità"
+        name: "resistenze_immunita"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Vulnerabilità ai Danni", name: "vulnerabilita", widget: "string", required: false, hint: "Es: Fuoco, Freddo" }
+          - { label: "Resistenze ai Danni", name: "resistenze", widget: "string", required: false, hint: "Es: Contundente, Perforante, Tagliente da armi non magiche" }
+          - { label: "Immunità ai Danni", name: "immunita_danni", widget: "string", required: false, hint: "Es: Veleno, Necrotico" }
+          - { label: "Immunità alle Condizioni", name: "immunita_condizioni", widget: "string", required: false, hint: "Es: Avvelenato, Affascinato, Spaventato" }
+
       - label: "Competenze, Sensi e CR"
         name: "competenze_base"
         widget: "object"
