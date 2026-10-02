@@ -1,6 +1,6 @@
 ---
 title: Zarathos il Nero
-image: /static/img/Gemini_Generated_Image_Zarathos.jpg
+image: /static/img/Gemini_Generated_Image_pem10xpem10xpem1.jpg
 tipo_allineamento: a
 ca: a
 hp: a
