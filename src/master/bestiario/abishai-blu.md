@@ -1,6 +1,6 @@
 ---
 title: Abishai Blu
-image: ''
+image: /static/img/BlueAbishai_p161.webp
 tipo_allineamento: a
 ca: a
 hp: a
