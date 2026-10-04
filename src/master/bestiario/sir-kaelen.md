@@ -1,6 +1,6 @@
 ---
 title: Sir Kaelen, Capitana della Spada
-image: /static/img/Gemini_Generated_Image_Sir_Kaelen.jpg
+image: /static/img/Gemini_Generated_Image_60nb9360nb9360nb.jpg
 tipo_allineamento: a
 ca: a
 hp: a
