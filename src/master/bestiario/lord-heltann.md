@@ -1,6 +1,6 @@
 ---
 title: Lord Heltann di Auchuran, Maresciallo della Rosa
-image: /static/img/Lord_Heltann.jpg
+image: /static/img/Gemini_Generated_Image_kqw8urkqw8urkqw8.jpg
 tipo_allineamento: a
 ca: a
 hp: a
@@ -13,6 +13,11 @@ stats:
   intelligenza: a
   saggezza: a
   carisma: a
+resistenze_immunita:
+  vulnerabilita: ''
+  resistenze: ''
+  immunita_danni: ''
+  immunita_condizioni: ''
 competenze_base:
   skills: ''
   sensi: ''
