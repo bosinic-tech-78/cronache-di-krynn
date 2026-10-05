@@ -1,7 +1,7 @@
 ---
 title: Nestra Vendri
 tipo: PNG
-image: ''
+image: /static/img/Gemini_Generated_Image_r2wuvur2wuvur2wu.jpg
 info_base:
   nome_giocatore: ''
   classi:
