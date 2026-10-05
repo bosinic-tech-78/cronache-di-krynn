@@ -4,7 +4,9 @@ tipo: PNG
 image: /static/img/4-10 Wyhan.png
 info_base:
   nome_giocatore: ''
-  classi: []
+  classi:
+    - nome: Maga
+      livello: null
   razza: ''
   background: ''
   allineamento: ''
