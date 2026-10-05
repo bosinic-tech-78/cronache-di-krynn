@@ -1,7 +1,7 @@
 ---
 title: Calof Miat
 tipo: PNG
-image: ''
+image: /static/img/Gemini_Generated_Image_iln0kkiln0kkiln0.jpg
 info_base:
   nome_giocatore: ''
   classi:
