@@ -4,7 +4,9 @@ tipo: PNG
 image: ''
 info_base:
   nome_giocatore: ''
-  classi: []
+  classi:
+    - nome: Nobile
+      livello: null
   razza: ''
   background: ''
   allineamento: ''
